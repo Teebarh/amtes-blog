@@ -1,0 +1,61 @@
+[[main]]
+  name = "Community"
+  weight = 10
+  
+
+[[main]]
+  name = "About Us"
+  parent = "Community"
+  pageRef = "about"
+  weight = 11
+
+[[main]]
+  name = "Events & News"
+  parent = "Community"
+  pageRef = "news"
+  weight = 12
+
+[[main]]
+  name = "Academics & Research"
+  parent = "Community"
+  pageRef = "academia"
+  weight = 13
+
+[[main]]
+  name = "Student Life"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  parent = "Student Life"
+  pageRef = "blog"
+  weight = 21
+
+[[main]]
+  name = "Bloggers"
+  parent = "Student Life"
+  pageRef = "authors"
+  weight = 22
+
+
+[[main]]
+  name = "Projects"
+  parent = "Student Life"
+  pageRef = "projects"
+  weight = 23
+
+[[main]]
+  name = "Careers & Alumni"
+  pageRef = "alumni"
+  weight = 30
+
+
+[[main]]
+  name = "Guides"
+  pageRef = "guides"
+  weight = 40
+  
+[[main]]
+  name = "Contact Us"
+  pageRef = "contact"
+  weight = 50

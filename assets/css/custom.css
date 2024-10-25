@@ -1,0 +1,90 @@
+/* IMPORTING FONTS */
+
+@font-face {
+  font-family: outfit;
+  src: url("/fonts/outfit.ttf");
+}
+
+@font-face {
+  font-family: rubik;
+  src: url("/fonts/Rubik-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: TT2020E;
+  src: url("/fonts/TT2020E.woff2");
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("/fonts/Pretendard-Regular.woff2");
+}
+
+/* CUSTOM ARTICLE FONT SPECIFICATIONS */
+
+.custom-article.outfit {
+  font-family: outfit;
+}
+
+.custom-article.rubik {
+  font-family: rubik;
+}
+
+.custom-article.TT2020E {
+  font-family: TT2020E;
+}
+
+.custom-article.pretendard {
+  font-family: pretendard;
+}
+
+/* PAGE DEFINITIONS */
+
+body {
+  font-family: rubik;
+  font-size: 16px;
+}
+
+article {
+  line-height: 1.25rem;
+}
+
+/* CUSTOM ELEMENTS  */
+
+.container>h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container>h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  transform: translateY(-10px); /* Slight upward shift for effect */
+}
+
+.container-2>h1 {
+  font-size: 5rem;
+  text-align: right;
+  font-weight: bold;
+  margin: 0;
+  transform: rotate(-5deg);
+}
+
+.container-2>h2 {
+  font-size: 4rem;
+  text-align: right;
+  font-weight: bold;
+  margin: 0;
+  transform: translateY(-5px) rotate(10deg); /* Slight upward shift and rotation for effect */
+}
+
+.container-2-1>h2 {
+  font-size: 3rem;
+  text-align: right;
+  font-weight: bold;
+  margin: 0;
+  transform: rotate(-5deg);
+}
