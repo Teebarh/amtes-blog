@@ -1,11 +1,23 @@
 ---
 date: '2024-10-25T18:36:38+01:00'
 draft: false
-title: "AMTES Blog Writing Guide"
+title: "WRITING GUIDE"
 type: custom
 layout: centered
-Type: featured
+showDate: false
+showWordCount: false
+showReadingTime: false
+showBreadcrumbs: false
 ---
+<style>
+  header {
+    display: none;
+  }
+</style>
+
+<div class="container">
+  <h1>The Ultimate Writing Guide</h1>
+</div>
 
 ## How To Write Informative Articles
 

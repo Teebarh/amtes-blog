@@ -1,8 +1,18 @@
 ---
+title: "CAREERS & ALUMNI"
 date: '2024-10-25T17:13:21+01:00'
-draft: true
-title: "Careers & Alumni"
+draft: false
 ---
+
+<style>
+  header {
+    display: none;
+  }
+</style>
+
+<div class="container">
+    <h1>🚀 Careers & Alumni: Where Dreams Take Flight!</h1>
+</div>
 
 {{< lead >}}
 What happens when you research a bunch of companies, apply to them, only to get back that dreaded reply? Spoiler alert: it’s a rollercoaster ride! 🎢

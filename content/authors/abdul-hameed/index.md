@@ -2,6 +2,8 @@
 date: 2024-10-21
 draft: false
 title: "Abdul-Hameed A. '25"
+showSummary: true
+summary: Academic Researcher
 ---
 
 ```intro.exe

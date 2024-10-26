@@ -16,9 +16,9 @@
   weight = 12
 
 [[main]]
-  name = "Academics & Research"
+  name = "Academia & Research"
   parent = "Community"
-  pageRef = "academia"
+  pageRef = "papers"
   weight = 13
 
 [[main]]

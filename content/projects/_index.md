@@ -1,14 +1,20 @@
 ---
+title: "PROJECTS"
 date: '2024-10-25T17:21:32+01:00'
 draft: false
 ---
+<style>
+  header {
+    display: none;
+  }
+</style>
 
 <h1 style="
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: bold;
   margin: 0;
-  transform: rotate(-5deg)" >WELCOME TO THE ABSOLUTE- <br>
+  transform: rotate(-6deg)" >THE ABSOLUTE- <br>
 COOLEST-<br> 
 PLACE- <br> 
 ON THE INTERNET! 🚀</h1>

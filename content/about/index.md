@@ -1,10 +1,21 @@
 ---
 date: '2024-10-25T17:32:37+01:00'
 draft: false
-title: 'About Us'
+title: 'ABOUT US'
 type: custom
 layout: centered
 ---
+
+<style>
+  header {
+    display: none;
+  }
+</style>
+
+<div class="container">
+  <h1>Get To Know Us</h1>
+</div>
+
 
 Welcome to the Mechatronics Engineering Department (AMTES) at FUNAAB. Here, you can learn about our mission, vision, and the exciting opportunities we offer.
 
