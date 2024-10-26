@@ -88,3 +88,44 @@ article {
   margin: 0;
   transform: rotate(-5deg);
 }
+
+.responsive-title {
+  font-size: 5rem; /* Default size for desktop */
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
+  transform: rotate(-6deg);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .responsive-title {
+      font-size: 4.25rem; /* Size for tablets and smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-title {
+      font-size: 3.25rem; /* Further reduced size for mobile */
+  }
+}
+
+
+.responsive-title-style-2 {
+  font-size: 5.25rem; /* Default size for desktop */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .responsive-title-style-2 {
+      font-size: 4.25rem; /* Size for tablets and smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-title-style-2 {
+      font-size: 3.25rem; /* Further reduced size for mobile */
+  }
+}

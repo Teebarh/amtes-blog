@@ -11,8 +11,6 @@ cascade:
   }
 </style>
 
-<div class="container">
-  <h1>Meet.<br>The.<br>Bloggers!</h1>
-</div>
+<h1 class="responsive-title-style-2">Meet.<br>The.<br>Bloggers!</h1>
 
 Meet the ~~sleep-deprived aliens~~, *(Ahem!)* bloggers who are passionate about sharing their experiences and expertise with the world.

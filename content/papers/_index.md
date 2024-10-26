@@ -11,6 +11,4 @@ cascade:
   }
 </style>
 
-<div class="container">
-    <h1>🎓IN THE LIMELIGHT:<br>CELEBRATING RESEARCH EXCELLENCE</h1>
-</div>
+<h1 class="responsive-title-style-2">🎓IN THE LIMELIGHT:<br>CELEBRATING RESEARCH EXCELLENCE</h1>

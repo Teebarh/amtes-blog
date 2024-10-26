@@ -10,9 +10,7 @@ draft: false
   }
 </style>
 
-<div class="container">
-    <h1>🚀 Careers & Alumni: Where Dreams Take Flight!</h1>
-</div>
+<h1 class="responsive-title-style-2">🚀 Careers & Alumni: Where Dreams Take Flight!</h1>
 
 {{< lead >}}
 What happens when you research a bunch of companies, apply to them, only to get back that dreaded reply? Spoiler alert: it’s a rollercoaster ride! 🎢

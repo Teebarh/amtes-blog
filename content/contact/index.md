@@ -14,9 +14,7 @@ sharingLinks: false
   }
 </style>
 
-<div class="container">
-    <h1>Hit Us Up!</h1>
-</div>
+<h1 class="responsive-title-style-2">Hit Us Up!</h1>
 
 We’re all ears! Whether you’ve got feedback, a burning question, or an awesome blog post idea, don’t hesitate to reach out. We can’t wait to hear from you!
 

@@ -9,12 +9,7 @@ draft: false
   }
 </style>
 
-<h1 style="
-  font-size: 4rem;
-  text-align: center;
-  font-weight: bold;
-  margin: 0;
-  transform: rotate(-6deg)" >THE ABSOLUTE- <br>
+<h1 class="responsive-title">THE ABSOLUTE- <br>
 COOLEST-<br> 
 PLACE- <br> 
 ON THE INTERNET! 🚀</h1>
