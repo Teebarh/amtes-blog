@@ -2,6 +2,7 @@
 title: "NEWS & EVENTS"
 date: '2024-10-25T17:17:18+01:00'
 draft: false
+aside: true
 ---
 
 <style>
