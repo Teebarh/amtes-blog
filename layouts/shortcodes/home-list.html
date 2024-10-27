@@ -1,0 +1,46 @@
+{{ $limit := .Get "limit" | default 1 }}
+{{ $title := .Get "title" | default (i18n "shortcode.recent_articles" | emojify) }}
+{{ $parent := .Page.RelPermalink }}
+{{ $cardView := .Get "cardView" }}
+{{ $where := .Get "where" }}
+{{ $value := .Get "value" }}
+<h1 class="list-title">{{ $title }}</h1>
+<p>Dive into our latest guides, where we explore the fascinating intersection of technology and mechatronics! Our articles are designed to keep you informed and inspired, offering in-depth insights into the latest trends, innovations, and best practices in the field.</p>
+
+{{ if $cardView | default false}}
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+    {{ if $where }}
+    {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+    {{ if not (eq .RelPermalink $parent) }}
+    {{ partial "article-link/card.html" . }}
+    {{ end }}
+    {{end}}
+    {{ else }}
+    {{ range .Site.RegularPages | first $limit }}
+    {{ if not (eq .RelPermalink $parent) }}
+    {{ partial "article-link/card.html" . }}
+    {{ end }}
+    {{end}}
+    {{ end }}
+</section>
+
+{{ else }}
+
+<section class="space-y-10 w-full mt-10 mb-10">
+    {{ if $where }}
+    {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+    {{ if not (eq .RelPermalink $parent) }}
+    {{ partial "article-link/simple.html" . }}
+    {{ end }}
+    {{end}}
+    {{ else }}
+    {{ range .Site.RegularPages | first $limit }}
+    {{ if not (eq .RelPermalink $parent) }}
+    {{ partial "article-link/simple.html" . }}
+    {{ end }}
+    {{end}}
+    {{ end }}
+</section>
+
+{{ end }}

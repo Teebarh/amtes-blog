@@ -129,3 +129,59 @@ article {
       font-size: 3.25rem; /* Further reduced size for mobile */
   }
 }
+
+.pro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns items at the start */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.pro-title {
+  flex: 1;
+  min-width: 100px; /* Ensures a minimum width for the title */
+}
+
+.pro-title > h1 {
+  font-size: 4.25rem;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 30px;
+  transform: rotate(-5deg);
+}
+
+.pro-desc {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .pro-section {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .pro-title > h1 {
+    font-size: 4.25rem;
+    margin-right: 0;
+  }
+
+  .pro-desc {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pro-title > h1 {
+    font-size: 4.25rem; /* Further reduce font size for very small screens */
+  }
+}
+
+.list-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin: 0;
+}

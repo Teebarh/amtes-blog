@@ -4,6 +4,7 @@ draft: false
 title: 'Embedded Machine Learning'
 type: custom
 layout: centered
+Type: guide
 ---
 
 Machine learning has traditionally been associated with powerful servers and cloud-based systems, but recent advancements have enabled the integration of machine learning models directly into embedded systems. This paradigm shift, known as Embedded Machine Learning (Embedded ML), is transforming how intelligent systems operate at the edge.

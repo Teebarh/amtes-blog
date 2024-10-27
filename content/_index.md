@@ -33,7 +33,11 @@ About Us
 
 ---
 
-<div id="apply" class="container">
+{{< home-list title="🏄‍♂️ Dive into Our Fresh Guides" cardView=false limit=3 where="Type" value="guide" >}}
+
+---
+
+<div class="container">
     <h2>Become a Student Blogger</h2>
 </div>
 
@@ -45,15 +49,27 @@ Join our dynamic student blogging team and let your voice be heard!
 
 ---
 <div id="apply" class="container">
-    <h2>Join Our Embedded Systems Course 🤖</h2>
+    <h2>Enroll in Our Embedded Systems Program 🤖</h2>
 </div>
 
-Okay, maybe writing isn't your thing, and that's totally okay! If you've ever dreamed of building your own tech like Tony Stark, well you're in luck! AMTES is thrilled to announce our **session-long embedded systems course**, designed just for you!
+Okay, maybe writing isn't your thing, and that's totally okay! If you've ever dreamed of building your own tech like Tony Stark, well you're in luck! AMTES is thrilled to announce our **session-long embedded systems program**, designed just for you!
 
 Don't miss out on this opportunity to dive into the world of embedded systems and unleash your inner inventor 🛠️.
 
 {{< button href="techtronics" target="_self" >}}
 Count me in!
+{{< /button >}}
+
+---
+
+<div class="container">
+    <h2>Join Our Research Workshop</h2>
+</div>
+
+Tony Stark isn't your thing either? Well, if diving into research excites you, then our workshop is the perfect opportunity to explore the depths of knowledge! Engage with fellow inquisitive minds, collaborate on innovative projects, and enhance your research skills in a supportive environment.
+
+{{< button href="techtronics" target="_self" >}}
+Sign me Up!
 {{< /button >}}
 
 ---
@@ -77,71 +93,3 @@ A: No worries! Check out our comprehensive [writing guide]({{< ref "how-to-write
 **Q: JARVIS are you there?**
 
 {{< typeit >}}A: At your service sir.{{< /typeit >}}
-
-<style>
-    .pro-section {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start; /* Aligns items at the start */
-        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-    }
-
-    .pro-title {
-        flex: 1;
-        min-width: 100px; /* Ensures a minimum width for the title */
-    }
-
-    .pro-title > h1 {
-        font-size: 4rem;
-        text-align: left;
-        font-weight: bold;
-        margin-right: 30px;
-        transform: rotate(-5deg);
-    }
-
-    .pro-title > h2 {
-        font-size: 3rem;
-        text-align: left;
-        font-weight: bold;
-        margin: 0;
-        transform: translateY(-30px) rotate(-10deg); /* Slight upward shift for effect */
-    }
-
-    .pro-desc {
-        flex: 1; /* Allows the description to take more space */
-        margin-right: 20px; /* Adjust for desired whitespace */
-    }
-
-    /* Media Queries for Responsiveness */
-    @media (max-width: 768px) {
-        .pro-section {
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items */
-            text-align: center; /* Center text */
-        }
-
-        .pro-title > h1 {
-            font-size: 2.5rem; /* Smaller font size for mobile */
-            margin-right: 0; /* Remove margin */
-        }
-
-        .pro-title > h2 {
-            font-size: 2rem; /* Smaller font size for mobile */
-        }
-
-        .pro-desc {
-            margin-right: 0; /* Remove margin */
-            margin-top: 20px; /* Add space above description */
-        }
-    }
-
-    @media (max-width: 480px) {
-        .pro-title > h1 {
-            font-size: 2rem; /* Further reduce font size for very small screens */
-        }
-
-        .pro-title > h2 {
-            font-size: 1.5rem; /* Further reduce font size for very small screens */
-        }
-    }
-</style>

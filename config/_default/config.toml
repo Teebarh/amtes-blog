@@ -1,6 +1,6 @@
 theme = "blowfish"
 title = "AMTES Blog"
-baseURL = "https://localhost"
+baseURL = "https://amtes.pages.dev"
 defaultContentLanguage = "en"
 timeout = "500s"
 

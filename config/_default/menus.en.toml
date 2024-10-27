@@ -59,3 +59,15 @@
   name = "Contact Us"
   pageRef = "contact"
   weight = 50
+ 
+[[footer]]
+  pre = "home"
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[footer]]
+  pre = "contact"
+  name = "Contact"
+  pageRef = "contact"
+  weight = 20
