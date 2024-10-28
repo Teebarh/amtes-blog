@@ -68,9 +68,7 @@ Count me in!
 
 Tony Stark isn't your thing either? Well, if diving into research excites you, then our workshop is the perfect opportunity to explore the depths of knowledge! Engage with fellow inquisitive minds, collaborate on innovative projects, and enhance your research skills in a supportive environment.
 
-{{< button href="techtronics" target="_self" >}}
-Sign me Up!
-{{< /button >}}
+<a href="#tally-open=wAxegz&tally-hide-title=1&tally-overlay=1&tally-auto-close=0" class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Sign me Up!</a>
 
 ---
 
