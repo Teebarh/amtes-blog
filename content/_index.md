@@ -37,7 +37,7 @@ About Us
 
 ---
 
-<div class="container">
+<div id="apply" class="container">
     <h2>Become a Student Blogger</h2>
 </div>
 
@@ -48,7 +48,7 @@ Join our dynamic student blogging team and let your voice be heard!
 <a href="#tally-open=wb4kqE&tally-overlay=1&tally-emoji-text=👋 Hi&tally-emoji-animation=wave&tally-auto-close=0" class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Apply Now!</a>
 
 ---
-<div id="apply" class="container">
+<div class="container">
     <h2>Enroll in Our Embedded Systems Program 🤖</h2>
 </div>
 
@@ -90,4 +90,6 @@ A: No worries! Check out our comprehensive [writing guide]({{< ref "how-to-write
 
 **Q: JARVIS are you there?**
 
-{{< typeit >}}A: At your service sir.{{< /typeit >}}
+{{< typeit breakLines=false >}}A: At your service sir.
+How may I help you today?
+{{< /typeit >}}
