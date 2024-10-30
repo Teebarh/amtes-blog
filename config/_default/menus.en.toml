@@ -59,6 +59,11 @@
   name = "Contact Us"
   pageRef = "contact"
   weight = 50
+  
+[[main]]
+  pre  = "github"
+  url = "https://github.com/AMTESFUNAAB/amtes-blog"
+  weight = 60
  
 [[footer]]
   pre = "home"
