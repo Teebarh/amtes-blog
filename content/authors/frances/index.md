@@ -1,9 +1,9 @@
 ---
 date: '2024-10-26T00:48:20+01:00'
 draft: false
-title: "Frances '27"
+title: "Frances A. '27"
 showSummary: true
-summary: Writer
+summary: Cool Writer
 ---
 
-Hello World! I'm Frances (yes with an 'e', deal with it).
+Hello World! I'm Frances (A.K.A Temiladeoluwa).
