@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="css/slides-extended.css" />
+    <link rel="stylesheet" href="dist\theme\serif.css" id="theme" />
+    <link rel="stylesheet" href="plugin\highlight\zenburn.css" />
+    <link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+    <link rel="stylesheet" href="plugin/reveal-pointer/pointer.css" />
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+    <script type="text/javascript">
+        function pageInIframe() {
+            return (window.location !== window.parent.location);
+        }
+
+        let forgetPop = true;
+        function onPopState(event) {
+            if(forgetPop){
+                forgetPop = false;
+            } else if( pageInIframe()) {
+                parent.postMessage(event.target.location.href, "app://obsidian.md");
+            }
+        }
+        window.onpopstate = onPopState;
+        window.onmessage = event => {
+            if(event.data == "reload"){
+                window.document.location.reload();
+            }
+            forgetPop = true;
+        }
+
+        function fitElements() {
+            const itemsToFit = document.getElementsByClassName('fitText');
+            for (const item in itemsToFit) {
+                if (Object.hasOwnProperty.call(itemsToFit, item)) {
+                    const element = itemsToFit[item];
+                    fitElement(element, 1, 1000);
+                    element.classList.remove('fitText');
+                }
+            }
+        }
+
+        function fitElement(element, start, end) {
+
+            let size = (end + start) / 2;
+            element.style.fontSize = `${size}px`;
+
+            if (Math.abs(start - end) < 1) {
+                while (element.scrollHeight > element.offsetHeight) {
+                    size--;
+                    element.style.fontSize = `${size}px`;
+                }
+                return;
+            }
+
+            if (element.scrollHeight > element.offsetHeight) {
+                fitElement(element, start, size);
+            } else {
+                fitElement(element, size, end);
+            }
+        }
+
+
+        document.onreadystatechange = () => {
+            fitElements();
+            if (document.readyState === 'complete') {
+                if (pageInIframe() && window.location.href.indexOf("?export") != -1){
+                    parent.postMessage(event.target.location.href, "app://obsidian.md");
+                }
+                if (window.location.href.indexOf("print-pdf") != -1){
+                    let stateCheck = setInterval(() => {
+                        clearInterval(stateCheck);
+                        window.print();
+                    }, 250);
+                }
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## WELCOME TO THE RESEARCH WORKSHOP 🎓🗞️
+
+<i class="fas fa-circle-notch fa-spin fa-3x" style="--fa-animation-duration: 2s;"></i>
+
+The session would start shortly…
+
+Link: https://meet.jit.si/Academic-Research-Workshop
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## WORKSHOP STRUCTURE
+
+```txt
+RESEARCH WORKSHOP (90 mins)
+├── PART 1: EFFECTIVE LITERATURE SEARCH (30 mins)
+│   ├── Introduction (5 mins)
+│   ├── Google Scholar like a pro (10 mins)
+│   ├── Alternative Search Platforms (10 mins)
+│   └── Quick Demo (5 mins)
+│
+├── PART 2: RESEARCH ORGANIZATION (30 mins)
+│   ├── Introduction to Research Workflow (10 mins)
+│   └── Tool Overview: Zotero (20 mins)
+│
+├── Break (5 mins)
+│
+└── PART 3: HANDS-ON PRACTICE (25-30 mins)
+    ├── Setting up Zotero
+    │   └── Extension and account
+    ├── Using consensus
+    ├── Importing papers with Zotero extension
+    └── Creating basic notes in a note
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## CORE WORKSHOP OBJECTIVES
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Learn to conduct more effective academic searches using Google Scholar and alternative platforms
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Understand basic literature organization and note-taking principles
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Get hands-on experience with at least one research tool
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Leave with a practical workflow you can start using immediately
+
+<aside class="notes"><p>Before we begin, let&#39;s go over the core objectives of the workshop.</p>
+<p>First, I hope every attendee is able to search for literature (i.e. papers) a little faster with Google Scholar <strong>AND</strong> better with alternative platforms.</p>
+<p>I want every attendee to leave <em>this</em> session knowing <em>how</em> to organize the current sources they have, and ones they&#39;ll find in the future.</p>
+<p>Next, I want each attendee to have a, basic understanding of note-taking principles as it relates to research.</p>
+<p>Then I want us to get hands-on experience with at least one research tool.</p>
+<p>And finally, I want every single person here to leave with a practical workflow they could get started with immediately.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# PART 1: EFFECTIVE LITERATURE SEARCH 🔍
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## INTRODUCTION
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->The "How Do I Find Relevant Papers" Problem
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->The "Citation Rabbit Hole" Problem
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->The Hideous "Chapter 2 Nightmare"
+
+<aside class="notes"><p>These are 3 major problems students face during their research: the &quot;How do I find relevant papers&quot; problem, the &quot;citation rabbit hole&quot; problem, and the hideous &quot;chapter 2 nightmare.&quot;</p>
+<p>Now, What&#39;s the &quot;how do I find relevant papers&quot; problem? Fairly easy: The student asks himself &quot;Well, how do I even <em>begin</em> research on this topic?&quot;—it&#39;s an entirely different story if he doesn&#39;t <em>have</em> a project topic—but let&#39;s assume his supervisor was generous enough to give a date range.</p>
+<p>How can our student navigate that?</p>
+<p>Okay, our student finally finds 1 to 3 relevant papers, she starts reading a paper, and then she finds interesting citations, she opens those papers, finds even <em>more</em> interesting citations, and opens <strong>more</strong> papers… suddenly it&#39;s 3AM, she has 30 tabs open and has lost track of which papers were <em>actually</em> relevant: if she closes the tabs, she loses some <em>&quot;good papers&quot;</em>; if she doesn&#39;t close them, she remains overwhelmed either way.</p>
+<p>Alright, what&#39;s the chapter 2 nightmare you ask? Well, the student finds dozens of PDFs over several months (or days) all stored with random file names like &quot;23799.pdf&quot; in different folders on their computer. So now their supervisor asks for a summary of their literature review, and they start panicking on what papers contained what or <em>where exactly</em> they saved their notes.</p>
+<p>Pretty relatable right?</p>
+<p>Let&#39;s see how we could address these concerns.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## USING GOOGLE SCHOLAR LIKE A PRO! 🚀
+
+<aside class="notes"><p>first, how do you get the most utility out of Google Scholar?</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- Search operators
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Filters and alerts
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Advanced search
+
+<aside class="notes"><p>(pause few seconds)</p>
+<p>Okay, so. Google Scholar search operators, what are they? How do you use them? Well, these operators work like filters to your search query. They allow you to <em>maneuver</em> your way around Google&#39;s humongous database to get what you want—or at least get something close. You have quotes, the minus sign, AND &amp; OR operators, and more, all of which <em>instantly</em> cut down your search results.</p>
+<p>Filters and alerts; recall that student who&#39;s supervisor was kind enough to give a date range? Well, Google Scholar eases his work as he could <em>instantly</em> apply that range to get more relevant results.</p>
+<p>Now, assuming you&#39;re a seasoned researcher, you could also take advantage of the alerts feature. It&#39;s useful for when you want to stay up-to-date with the latest papers in a specific discipline or subject matter.</p>
+<p>The Advanced search is a single tab that does what filters and search operators do. It&#39;s a pretty powerful feature you could use when you need to be <em>even more</em> specific with your search.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ALTERNATIVE SEARCH PLATFORMS 🔎
+
+<aside class="notes"><p>Honestly, while Google Scholar <em>does</em> have it&#39;s uses, there&#39;re WAY better alternative that dwarf our little guy—especially with generative AI being the hottest topic in town.</p>
+<p>The first I recommend is:</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## SEMANTIC SCHOLAR
+
+Google Scholar on steroids.
+
+<aside class="notes"><p>This is essentially Google Scholar, but better. The user interface is a lot cleaner, it has <em>really</em> powerful filter mechanism, and an entourage of features—some of which we&#39;ll explore in a bit.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## CONSENSUS
+
+AI-powered assistant for literature search for researchers.
+
+<aside class="notes"><p>Consensus is an AI-powered academic search engine. Essentially, you ask it questions about a subject matter and it provides answers based on research papers. So, that could be yes/no questions, finding the relationship between concepts, explaining terms, you name it.</p>
+<p>It&#39;s best for when you want a relatively quick summary to your research question. The output could then inform later research.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## SCITE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j3OLVBLp6sc?si=l6z44MTmuGAV5GnS&amp;start=135" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<aside class="notes"><p>Scite&#39;s AI assistant works similar to consensus, but the service is surprisingly cheap. For 20 naira a month and 12 naira when billed yearly, you get access to detailed analysis on <em>how</em> papers are cited. Were they supporting arguments, or were they disagreed with? Was the paper cited in the methods section, or was it cited in the introduction section. Unless they made a severe mistake, I don&#39;t see why anyone shouldn&#39;t use this tool.</p>
+<p>Let&#39;s watch this quick demo</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## ELICIT & AVIDNOTES
+
+Search, read, and extract insights from research sources.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## EDITGPT
+
+AI-editor that makes Grammarly seem like a fraud.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# QUICK DEMO: SEMANTIC VS GOOGLE SCHOLAR 🎓
+
+<aside class="notes"><ul>
+<li>search operators</li>
+<li>filters</li>
+<li>abstract and related papers</div></li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# PART 2: RESEARCH ORGANIZATION 📚
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## RESEARCH WORKFLOWS: COMMON CHALLENGES
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Digital hoarding
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Orphan notes
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Memory betrayal
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Citation chaos
+
+<aside class="notes"><p>[Digital hoarding] refers to when a student downloads <em>every</em> potentially relevant paper, y&#39;know, &quot;just in case&quot;, with no system to categorize <em>or</em> prioritize them. This could induce stress and anxiety as the student might need to re-read papers to know for a fact if the <em>current paper</em> is relevant or not.</p>
+<p>[Orphan notes] are notes spread across multiple apps or platforms without any direct link to each other. Now, this could be in the form of annotations on your mobile device versus highlights on your computer. With annotations existing on different devices or applications, and separate from main notes, it could hinder the student&#39;s ability to see the bigger picture which is how these pieces come together to form a whole.</p>
+<p>[Memory betrayal] is when the student relies on remembering paper contents, <strong>and</strong> without a consistent note-taking method or system. So for example, the student might forget key points, hence, struggle to clearly explain how a cited paper truly supports an argument; or maybe she confidently remembers sections of <em>a</em> paper but can&#39;t recall the author, the title, or where she read it.</p>
+<p>And finally [citation chaos]; characterized by students spending HOURS formatting references either due to missing, incomplete, or straight up <em>wrong</em> reference information.</p>
+<p>Now, how many of these have you experienced? Probably 1 or 2.</p>
+<p>You see, these challenges highlight the need for systematic organization, processing mechanisms, automated solutions, and effective note-taking systems.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# TOOL OVERVIEW: ZOTERO
+
+<aside class="notes"><p>Zotero is one of those tools that addresses these needs.</p>
+<p>But first, <em>how</em> does it works?</p>
+<p>(Send poll: what reference management software have you used? Zotero, Mendeley, What&#39;s a reference manager, I use a folder on my computer!)</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## WORKFLOW DEMONSTRATION 💻
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Importing sources (Web & Local)
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Organizing sources (Collections & Libraries)
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Annotating sources
+
+<aside class="notes"><p>Sooo, say we have a, dummy project on (building a dummy project—very innovative)</p>
+<p>First, I&#39;d like to see how I could import sources from the internet and local files from my computer.</p>
+<p>Next, I&#39;d REALLY love to have these sources organized into neat collections where <em>each</em> collection denotes a certain project or sub-projects.</p>
+<p>And finally, I&#39;d want to read the papers, annotate them: y&#39;know, highlights and stuff, and have them neatly structured so I could revisit them at a later time.</p>
+<p>So, let&#39;s see how we could do that!</p>
+<p>To make things easy, I already have Zotero set up. We&#39;ll go through setting it up yourself during our hands-on session. But for now, pay attention <em>aand</em> note down questions you&#39;d love to ask.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# CITING SOURCES ✍️
+
+<aside class="notes"><p>You learnt how to search for new items starting with key terms, you added filters to narrow down search results, you.. read papers and annotated them in Zotero. Now, how do you cite them in your notes or while you draft your manuscript?</p>
+<p><del>For this demonstration I&#39;ll use my note-taking application: Obsidian. You could use whatever tool you&#39;re <em>most</em> comfortable with: either Microsoft word, your default notes app, or plain old pen &amp; paper—I&#39;d recommend a digital tool though.</del></p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+**In-text Citations**
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Single author: Huang (1996) hypothesized…
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Dual authors: Kim & Shawn (2023) argued…
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Multiple authors: Fernandez et al. (2012) discussed…
+
+**Parenthetical Citations**
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Single author: (Huang, 1996).
+- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->Dual authors: (Kim & Shawn, 2023).
+- &shy;<!-- .element: class="fragment" data-fragment-index="6" -->Multiple authors: (Fernandez et al., 2012).
+- &shy;<!-- .element: class="fragment" data-fragment-index="7" -->(note placement of punctuation)
+
+<aside class="notes"><p>Now, the easiest way to cite sources is to know what citation style you&#39;re to write in. That could be APA (American Psychology Association), MLA, Harvard, Chicago, IEEE, and more.</p>
+<p>Today, we&#39;ll look at the, APA citation style.</p>
+<p>For in-text citation and for a single author, you have the format: The author&#39;s last name, a comma, year in parenthesis and <em>then</em> the rest of your statement. So we have something like &quot;Wibowo (2023) addressed…&quot;</p>
+<p>For dual authors, you have first author&#39;s last name, <em>&amp;</em>, second author&#39;s last name, year in parenthesis… so for example, we have &quot;Wibowo &amp; Huang (2023) emphasized the importance of…&quot;</p>
+<p>for parenthetical citations: the type you add <em>after</em> making a claim or, after.. quoting a section of a paper, you use the format: parenthesis, then inside it, author&#39;s last name—comma—year, for single authors. For dual authors, you use first author&#39;s last name—&amp;—second author&#39;s last name—comma—year, all enclosed in parenthesis.</p>
+</div></aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# HANDS-ON PRACTICE 🛠️
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## WHAT DOES A GREAT OUTCOME FOR THIS SEGMENT LOOK LIKE?
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- Attendees feel comfortable to share what they're working on.
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Attendees are willing—excited even—to share what progress they made.
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Attendees leave having made solid progress, feeling inspired, and are excited to join the coming week(s) to make even *more* progress.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1080px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## OBJECTIVES
+
+- Set up Zotero (extension and account)
+- Semantic Scholar + Consenus (Sign up and Usage)
+- Import papers (Zotero extension and local files)
+- Annotate papers and create notes in Zotero
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/mermaid/mermaid.js"></script>
+    <script src="plugin/chart/chart.min.js"></script>
+    <script src="plugin/chart/plugin.js"></script>
+    <script src="plugin/customcontrols/plugin.js"></script>
+    <script src="plugin/reveal-pointer/pointer.js"></script>
+
+    <script>
+        function extend() {
+            const target = {};
+            for (let i = 0; i < arguments.length; i++) {
+                const source = arguments[i];
+                for (const key in source) {
+                    if (source.hasOwnProperty(key)) {
+                        target[key] = source[key];
+                    }
+                }
+            }
+            return target;
+        }
+
+        function isLight(color) {
+            let hex = color.replace('#', '');
+
+            // convert #fff => #ffffff
+            if (hex.length == 3) {
+                hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+            }
+
+            const c_r = parseInt(hex.substr(0, 2), 16);
+            const c_g = parseInt(hex.substr(2, 2), 16);
+            const c_b = parseInt(hex.substr(4, 2), 16);
+            const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+            return brightness > 155;
+        }
+
+        const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+
+        if (isLight(bgColor)) {
+            document.body.classList.add('has-light-background');
+        } else {
+            document.body.classList.add('has-dark-background');
+        }
+
+        // default options to init reveal.js
+        const defaultOptions = {
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'default', // none/fade/slide/convex/concave/zoom
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealZoom,
+                RevealNotes,
+                RevealMath.MathJax3,
+                RevealMermaid,
+                RevealChart,
+                RevealCustomControls,
+                RevealPointer,
+            ],
+            allottedTime: 120 * 1000,
+            mathjax3: {
+                mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+            },
+            markdown: {
+                gfm: true,
+                mangle: true,
+                pedantic: false,
+                smartLists: false,
+                smartypants: false,
+            },
+            mermaid: {
+                theme: isLight ? 'default' : 'dark',
+            },
+            customcontrols: {
+                controls: [
+                ]
+            },
+        };
+
+        if ( pageInIframe() ) {
+            defaultOptions.scrollActivationWidth = 5;
+        }
+
+        // options from URL query string
+        const queryOptions = Reveal().getQueryHash() || {};
+
+        const options = extend(defaultOptions, {"controls":true,"progress":false,"slideNumber":false,"center":true,"transition":"slide","transitionSpeed":"normal","width":1080,"height":1200,"margin":0.04,"controlsBackArrows":"hidden","pdfSeparateFragments":false}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+</body>
+
+<!-- created with Slides Extended -->
+</html>
