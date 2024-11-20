@@ -7,3 +7,7 @@ summary: Cool Writer
 ---
 
 Hello World! I'm Frances (A.K.A Temiladeoluwa).
+
+This is some new content on here!
+
+I have written a few things on here!
