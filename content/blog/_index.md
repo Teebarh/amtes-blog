@@ -1,7 +1,6 @@
 ---
 title: "BLOG"
 date: '2024-10-25T17:05:01+01:00'
-draft: false
 ---
 
 <style>

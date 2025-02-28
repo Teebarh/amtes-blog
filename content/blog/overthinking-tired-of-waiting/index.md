@@ -1,9 +1,9 @@
 ---
 title: "It's Not Perfect, But It's a Start"
 date: 2024-02-28
+authors: 
+  - "abdul-hameed"
 draft: false
-author: Abdul-Hameed
-showAuthor: true
 ---
 
 What to write; what to say?

@@ -7,14 +7,19 @@ timeout = "500s"
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 100
 summaryLength = 0
 hasCJKLanguage = true
 
 buildDrafts = false
 buildFuture = true
 
+enableEmoji = true
+
 # googleAnalytics = "G-XXXXXXXXX"
+
+[pagination]
+  pagerSize = 100
+
 
 [author]
   name = "AMTES FUNAAB"
@@ -33,7 +38,7 @@ buildFuture = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  author = "bloggers"
+  author = "authors"
   series = "series"
 
 [sitemap]
