@@ -13,7 +13,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "basic" # basic, fixed, fixed-fill-blur
+  layout = "fixed" # basic, fixed, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -40,7 +40,7 @@ smartTOCHideUnfocusedChildren = true
   showDateUpdated = false
   showAuthor = true
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -59,7 +59,7 @@ smartTOCHideUnfocusedChildren = true
   showTaxonomies = false
   showAuthorsBadges = true
   showWordCount = false
-  sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "whatsapp", "telegram"]
+  sharingLinks = [ "linkedin", "twitter", "instagram", "whatsapp", "telegram"]
   showZenMode = false
 
 [list]

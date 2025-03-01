@@ -1,8 +1,9 @@
 {
-  "name": "Toyibat Adele",
-  "image": "",
+  "name": "Toyibat A. '26",
+  "image": "img/tee.jpeg",
   "bio": "Technical Ninja",
   "social": [
-    { "linkedin": "https://ng.linkedin.com/in/toyibatadele" }
+    { "linkedin": "https://ng.linkedin.com/in/toyibatadele" },
+    { "github": "https://github.com/teebarh" }
   ]
 }

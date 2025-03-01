@@ -4,4 +4,5 @@ date: '{{ .Date }}'
 authors:
   - ""
 draft: false
+heroStyle: big # big, basic, background, thumbAndBackground
 ---
