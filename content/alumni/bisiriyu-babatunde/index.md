@@ -9,7 +9,7 @@ heroStyle: big
 
 *Babatunde Bisiriyu’s journey in engineering is a story of passion, hard work, and curiosity. From studying Electrical and Electronics Engineering at Gateway Polytechnic to graduating with a first-class degree in Mechatronics Engineering from FUNAAB, he has always been eager to learn and push his limits.*
 
-*For over five years, Babatunde has shared his love for math and science by tutoring students in Nigeria and beyond. But his interests go beyond teaching.He is deeply fascinated by robotics, artificial intelligence, machine learning, and virtual reality. He sees engineering as a way to bring ideas to life and create real solutions to everyday problems.*  
+*For over five years, Babatunde has shared his love for math and science by tutoring students in Nigeria and beyond. But his interests go beyond teaching. He is deeply fascinated by robotics, artificial intelligence, machine learning, and virtual reality. He sees engineering as a way to bring ideas to life and create real solutions to everyday problems.*  
 
 *In this interview, the first in our AMTES Alumni Series, Babatunde talks about his journey, the challenges of studying engineering in Nigeria, and his hopes for the future of technology.*
 
@@ -23,7 +23,7 @@ It is a pleasure. The Mechatronics Engineering department, Funaab is my home. Sh
 
 **Thank you. I’ll start off by asking, what motivated you to study Mechatronics Engineering?**
 
-Right after secondary school, I was an apprentice at an automobile mechanic workshop. I learnt the rudiments of vehicle operations and I was fascinated by the engineering behind vehicles. I went on to Gateway Polytechnic, Ogun state to study Electrical and Electronics at the national diploma level and I wanted to combine the knowledge of electronics with cars and Mechatronics engineering seemed like the right option. So, instead of going back for a Higher National Diploma, I opted to study mechatronics engineering at Funaab.
+Right after secondary school, I was an apprentice at an automobile mechanic workshop. I learnt the rudiments of vehicle operations and I was fascinated by the engineering behind vehicles. I went on to Gateway Polytechnic, Ogun state, to study Electrical and Electronics at the national diploma level and I wanted to combine the knowledge of electronics with cars, and Mechatronics engineering seemed like the right option. So, instead of going back for a Higher National Diploma, I opted to study mechatronics engineering at Funaab.
 
 **Oh wow! I also had an interest in automobiles, although that has evolved into a love for airplanes and I’m looking to explore that field.**
 
@@ -31,13 +31,13 @@ You should absolutely do it. Passion is one of the most important things that ke
 
 **One thousand percent! How would you rate your study experience? Did you get the results you came in seeking?**
 
-Study experience is a 100 for me. At the beginning, I wasn't hitting my result goals because I had a first-class result (4.78/5) only once out of the first 5 semesters. The tides changed when I hit a perfect GPA in 300 level second semester and it took my GPA to a first class. That moment changed everything.
+Study experience is a 100 for me. At the beginning, I wasn't hitting my result goals because I had a first-class result (4.78/5) only once out of the first 5 semesters. The tides changed when I hit a perfect GPA in 300 level second semester, and it took my GPA to a first-class. That moment changed everything.
 
 Did I get the result I came seeking? Absolute YES. It was first class or nothing. So, I got it.
 
 **What were some of the things you did differently that you feel helped you hit a perfect GPA and maintain a first class CGPA?**
 
-It might sound unconventional but it started with ensuring financial stability. I redefined my study pattern also and I ensured to not miss classes. I worked with past papers more often and I wrote a watchword (JUST DO IT) on my board at home to serve as a reminder and motivation that my dream was valid and doable.
+It might sound unconventional but it started with ensuring financial stability. I redefined my study pattern also, and ensured not to miss classes. I worked with past papers more often, and I wrote a watchword, *(JUST DO IT),* on my board at home to serve as a reminder, and motivation that my dream was valid and doable.
 
 **I can see how this helped keep you motivated and consistent. Congratulations on hitting your goal! It must not have been easy.**
 
@@ -49,15 +49,15 @@ I have a great passion for teaching/lecturing. I'll definitely explore the gradu
 
 **This is beautiful. Your students would be lucky to have you. I really hope you achieve this.**
 
-Thank you, Toyibat. I'll put in my best to do so. I'm teaching anyway so I'm big on making academic impacts.
+Thank you, Toyibat. I'll put in my best to do so. I'm teaching anyway, so I'm big on making academic impacts.
 
 **You’re welcome! From what I know, applying to grad school requires getting recommendation letters and maybe even a bit of research experience. How did you work towards that in school while also dealing with academics?**
 
-Oh. This is an interesting question. I started making research on what it entails to apply for graduate studies post covid so I ardently follow content from people like Dr. Igbalajobi, and a host of others. I read about walking up to a lecturer in your department to help out on research works to gain research experience. I applied the knowledge and I approached the current HOD of the department. He took me in and we worked on many research works together. I now have my name listed as a contributor in about 7 publications including two publications made off my final year project.
+Oh. This is an interesting question. I started making research on what it entails to apply for graduate studies post COVID so I ardently follow content from people like [Dr. Igbalajobi](https://www.linkedin.com/in/olumuyiwa-igbalajobi/), and a host of others. I read about walking up to a lecturer in your department to help out on research works to gain research experience. I applied the knowledge and I approached the current HOD of the department. He took me in and we worked on many research projects together. I now have my name listed as a contributor in about 7 publications, including two publications made off my final year project.
 
 **Oh wow, this is impressive!**
 
-Working towards it was quite stressful but I was hellbent on making it count so I devised a schedule where the bulk of the research-related activities get executed on weekends. The HOD is an awesome person so he was quite accommodating when it came to delays in my deliverables.
+Working towards it was quite stressful, but I was hellbent on making it count, so I devised a schedule where the bulk of the research-related activities get executed on weekends. The HOD is an awesome person so he was quite accommodating when it came to delays in my deliverables.
 
 **So you started working towards it at say 200 level?**
 
@@ -77,13 +77,13 @@ I already understood the concept of burning out because I already worked as a cl
 
 **Mmmm, this makes so much sense. Okay, for the final question, what advice do you have for anyone looking to take similar steps as you and go into grad school or looking to graduate with a first class?**
 
-You have to understand that people try to shit on what they can't achieve because it is a reflection of their inability when they see you achieve it. Academic excellence, even if it doesn't translate to financial growth is still not less of an excellence. We are in a dysfunctional society and people will ask you many times “who first-class help?” but if you want it so much, shield your mind from naysayers and keep doing your thing.
+You have to understand that people try to shit on what they can't achieve because it is a reflection of their inability when they see you achieve it. Academic excellence, even if it doesn't translate to financial growth, is still not less of an excellence. We are in a dysfunctional society and people will ask you many times “who first-class help?” but if you want it so much, shield your mind from naysayers and keep doing your thing.
 
 Here’s my advice:
 
 - Academics is tough, brace up for impact.
 - Keep people that have the same aspirations as you as friends.
-- Your dreams are valid but on days when it is seeming impossible, retreat and strategize. Don't be deterred.
+- Your dreams are valid, but on days when it is seeming impossible, retreat and strategize. Don't be deterred.
 - Don't leave it late. Start early
 - Your lecturers are not your enemies. Build quality relationships with them while maintaining mutual respect.
 
