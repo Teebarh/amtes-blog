@@ -24,7 +24,7 @@ See, I've always loved writing. I love sharing ideas. I love thinking about idea
 
 I read somewhere, "reading is like opening a window into the life of the other." You, at an instant, feel the vibrance, you sense the ambiance, you feel the words as though you're a part of that world. It's quite amazing really.
 
-So what does it mean to be a blogger?
+**So what does it mean to be a blogger?**
 
 I see blogging as what I described earlier: a window into the life of the other. A blog post is a snapshot of life at that moment. It's a preservation of my thought process and worldview at a point in time. It is, to me, an attempt to share the beauty of certain experiences and express the hurt of others.
 
