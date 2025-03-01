@@ -64,15 +64,4 @@
   pre  = "github"
   url = "https://github.com/AMTESFUNAAB/amtes-blog"
   weight = 60
- 
-[[footer]]
-  pre = "home"
-  name = "Home"
-  pageRef = "/"
-  weight = 10
 
-[[footer]]
-  pre = "contact"
-  name = "Contact"
-  pageRef = "contact"
-  weight = 20
