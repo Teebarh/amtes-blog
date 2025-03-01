@@ -1,4 +1,4 @@
-colorScheme = "fire" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
+colorScheme = "noir" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -13,7 +13,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed-fill-blur"
+  layout = "basic" # basic, fixed, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -53,12 +53,12 @@ smartTOCHideUnfocusedChildren = true
   showPagination = false
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   # showRelatedContent = false
   # relatedContentLimit = 3
   showTaxonomies = false
-  showAuthorsBadges = false
-  showWordCount = true
+  showAuthorsBadges = true
+  showWordCount = false
   sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "whatsapp", "telegram"]
   showZenMode = false
 
@@ -89,17 +89,17 @@ smartTOCHideUnfocusedChildren = true
   showViews = false
   showLikes = false
   showTableOfContents = false
-  cardView = false
+  cardView = true
 
 [term]
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
   showTableOfContents = true
   groupByYear = false
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
 
 [firebase]
