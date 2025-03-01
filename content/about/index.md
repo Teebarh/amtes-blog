@@ -4,6 +4,7 @@ draft: false
 title: 'ABOUT US'
 type: custom
 layout: centered
+showTableOfContents: false
 ---
 
 <style>

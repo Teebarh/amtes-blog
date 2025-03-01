@@ -13,7 +13,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed" # basic, fixed, fixed-fill-blur
+  layout = "fixed-fill-blur" # basic, fixed, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -82,7 +82,7 @@ smartTOCHideUnfocusedChildren = true
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
+  showTermCount = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
@@ -97,9 +97,10 @@ smartTOCHideUnfocusedChildren = true
   showBreadcrumbs = true
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   groupByYear = false
-  cardView = true
+  showCards = false
+  cardView = false
   cardViewScreenWidth = false
 
 [firebase]
