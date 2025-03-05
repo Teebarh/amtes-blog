@@ -10,8 +10,8 @@ cardView: false
   }
 </style>
 
-<h1 class="responsive-title-style-2">🚀 Careers & Alumni: Where Dreams Take Flight!</h1>
+<h1 class="responsive-title-style-2">Alumni Stories:<br>Engineering Dreams into Reality</h1>
 
 {{< lead >}}
-What happens when you research a bunch of companies, apply to them, only to get back that dreaded reply? Spoiler alert: it’s a rollercoaster ride! 🎢
+They’ve stressed over the same courses, pulled all-nighters on the same projects, and now, they’re out there making a difference. Here’s what they have to share:
 {{< /lead >}}

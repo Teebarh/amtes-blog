@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Cards</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.5/cdn.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <div x-data="cardGrid()" class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Resource Library</h1>
+
+        <!-- Tag Filter -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Filter by Tags</h2>
+            <div class="flex flex-wrap gap-3">
+                <template x-for="tag in availableTags" :key="tag">
+                    <button @click="toggleTag(tag)"
+                        class="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200"
+                        :class="selectedTags.includes(tag) ? 'bg-blue-600 text-white' : 'bg-gray-200 hover:bg-gray-300'"
+                        x-text="tag"></button>
+                </template>
+                <button @click="clearTags()"
+                    class="px-4 py-2 rounded-full text-sm font-medium bg-gray-400 text-white hover:bg-gray-500 transition-colors duration-200 ml-2">
+                    Clear Filters
+                </button>
+            </div>
+        </div>
+
+        <!-- Card Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <template x-for="card in filteredCards" :key="card.id">
+                <a :href="card.url" target="_blank" rel="noopener noreferrer"
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="h-48 bg-gray-200 overflow-hidden">
+                        <img :src="card.image" :alt="card.title"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                            onerror="this.src='https://picsum.photos/400/300';this.onerror='';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-gray-800" x-text="card.title"></h3>
+                        <p class="text-gray-600 text-sm mb-4" x-text="card.description"></p>
+
+                        <div class="flex flex-wrap gap-2">
+                            <template x-for="tag in card.tags" :key="tag">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full"
+                                    x-text="tag"></span>
+                            </template>
+                        </div>
+                    </div>
+                </a>
+            </template>
+        </div>
+
+        <!-- Empty State -->
+        <div x-show="filteredCards.length === 0" class="text-center py-16">
+            <p class="text-gray-500 text-lg">No resources found with the selected tags.</p>
+        </div>
+    </div>
+
+    <script>
+        function cardGrid() {
+            return {
+                selectedTags: [],
+                cards: [
+                    {
+                        id: 1,
+                        title: "Introduction to JavaScript",
+                        description: "Learn the basics of JavaScript programming",
+                        image: "https://picsum.photos/400/300?random=1",
+                        url: "https://example.com/javascript-intro.pdf",
+                        tags: ["programming", "javascript", "beginner"]
+                    },
+                    {
+                        id: 2,
+                        title: "Advanced CSS Techniques",
+                        description: "Master modern CSS layouts and animations",
+                        image: "https://picsum.photos/400/300?random=2",
+                        url: "https://example.com/advanced-css",
+                        tags: ["css", "web design", "intermediate"]
+                    },
+                    {
+                        id: 3,
+                        title: "Python Data Science",
+                        description: "Analyzing data with Python libraries",
+                        image: "https://picsum.photos/400/300?random=3",
+                        url: "https://example.com/python-data-science.pdf",
+                        tags: ["python", "data science", "advanced"]
+                    },
+                    {
+                        id: 4,
+                        title: "UI/UX Design Principles",
+                        description: "Creating user-friendly interfaces",
+                        image: "https://picsum.photos/400/300?random=4",
+                        url: "https://example.com/ui-ux-design",
+                        tags: ["design", "ui", "ux", "intermediate"]
+                    },
+                    {
+                        id: 5,
+                        title: "React Framework Tutorial",
+                        description: "Building applications with React",
+                        image: "https://picsum.photos/400/300?random=5",
+                        url: "https://example.com/react-tutorial",
+                        tags: ["javascript", "react", "framework", "intermediate"]
+                    },
+                    {
+                        id: 6,
+                        title: "DevOps Essentials",
+                        description: "Introduction to CI/CD pipelines",
+                        image: "https://picsum.photos/400/300?random=6",
+                        url: "https://example.com/devops-essentials.pdf",
+                        tags: ["devops", "tools", "advanced"]
+                    },
+                    {
+                        id: 7,
+                        title: "Machine Learning Basics",
+                        description: "Understanding ML algorithms",
+                        image: "https://picsum.photos/400/300?random=7",
+                        url: "https://example.com/ml-basics",
+                        tags: ["machine learning", "ai", "python", "intermediate"]
+                    },
+                    {
+                        id: 8,
+                        title: "Database Design",
+                        description: "SQL and NoSQL database architecture",
+                        image: "https://picsum.photos/400/300?random=1",
+                        url: "https://example.com/database-design.pdf",
+                        tags: ["database", "sql", "nosql", "intermediate"]
+                    }
+                ],
+
+                get availableTags() {
+                    const allTags = this.cards.flatMap(card => card.tags);
+                    return [...new Set(allTags)].sort();
+                },
+
+                get filteredCards() {
+                    if (this.selectedTags.length === 0) {
+                        return this.cards;
+                    }
+
+                    return this.cards.filter(card => {
+                        return this.selectedTags.every(tag => card.tags.includes(tag));
+                    });
+                },
+
+                toggleTag(tag) {
+                    if (this.selectedTags.includes(tag)) {
+                        this.selectedTags = this.selectedTags.filter(t => t !== tag);
+                    } else {
+                        this.selectedTags.push(tag);
+                    }
+                },
+
+                clearTags() {
+                    this.selectedTags = [];
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
