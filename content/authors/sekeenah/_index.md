@@ -1,7 +1,6 @@
 ---
 title: "Sekeenah '26"
 date: '2024-11-15T16:40:31+01:00'
-draft: false
 ---
 
 Hola! My name is Sekeenah. I am from Abeokuta. It's literally where I have lived all my life. To quote a friend of mine " Do you want to spend your entire life here?" Nope.

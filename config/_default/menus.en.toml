@@ -1,7 +1,6 @@
 [[main]]
   name = "Community"
   weight = 10
-  
 
 [[main]]
   name = "About Us"
@@ -10,9 +9,9 @@
   weight = 11
 
 [[main]]
-  name = "Events & News"
+  name = "Announcements"
   parent = "Community"
-  pageRef = "news"
+  pageRef = "announcements"
   weight = 12
 
 [[main]]
@@ -32,17 +31,22 @@
   weight = 21
 
 [[main]]
+  name = "Series"
+  parent = "Student Life"
+  pageRef = "series"
+  weight = 22
+
+[[main]]
   name = "Bloggers"
   parent = "Student Life"
   pageRef = "authors"
-  weight = 22
-
+  weight = 23
 
 [[main]]
   name = "Projects"
   parent = "Student Life"
   pageRef = "projects"
-  weight = 23
+  weight = 24
 
 [[main]]
   name = "Careers & Alumni"

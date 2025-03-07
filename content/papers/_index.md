@@ -2,6 +2,8 @@
 date: '2024-10-25T17:08:41+01:00'
 draft: false
 title: "IN THE LIMELIGHT: CELEBRATING RESEARCH EXCELLENCE"
+showCards: true
+cardView: true
 cascade:
   showSummary: true
 ---
