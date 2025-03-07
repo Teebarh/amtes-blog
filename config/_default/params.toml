@@ -1,5 +1,5 @@
 colorScheme = "noir" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
-defaultAppearance = "light" # valid options: light or dark
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = false
 
 enableSearch = true
@@ -66,15 +66,15 @@ smartTOCHideUnfocusedChildren = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showSummary = false
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = true
+  showCards = false
   groupByYear = false
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
 

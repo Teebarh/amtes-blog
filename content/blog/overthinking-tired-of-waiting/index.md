@@ -6,19 +6,22 @@ authors:
 draft: false
 ---
 
-What to write; what to say?
-
-What to write; what do I have to say?
-
-What to write, but I have so much to say.
-
-What to write, would you stay if I say:
-
-It's not complicated. You don't have to think too hard about it.
-
-It's not complicated. Sometimes we think too hard about it.
-
-And maybe sometimes it *is* complicated, but we think too hard about it.
+<pre>
+|      What to write  
+|                    what to say?
+|      What to write
+|                      what do I have to say?
+|      What to write
+|                but I have so much to say.
+|      What to write
+|                              would you stay if I say:
+|      It's not complicated.
+|              You don't have to think too hard about it.
+|                   It's not complicated.
+|                                        Sometimes we think too hard about it.
+|          And maybe sometimes it *is* complicated
+|      but we think too hard about it.
+</pre>
 
 See, I've always loved writing. I love sharing ideas. I love thinking about ideas. Some of my cherished moments are when I step outside my head into someone else's world built through their words.
 

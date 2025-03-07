@@ -1,6 +1,5 @@
 ---
 date: '2024-10-25T18:30:38+01:00'
-draft: false
 title: "Toyibat A. '26"
 ---
 
