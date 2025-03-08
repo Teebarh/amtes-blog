@@ -1,6 +1,6 @@
 ---
-title: "Sekeenah '26"
-date: '2024-11-15T16:40:31+01:00'
+title: "Sekeenah A. '26"
+date: "2024-11-15T16:40:31+01:00"
 ---
 
 Hola! My name is Sekeenah. I am from Abeokuta. It's literally where I have lived all my life. To quote a friend of mine " Do you want to spend your entire life here?" Nope.
@@ -21,3 +21,5 @@ You will know the rest over time.
 I forgot something. What you should expect. That's literally everything and anything. I am going to be all over the map. But you will learn a thing or two from every post. A post once a week (hopefully) or in two weeks. Think of it as a weekly or bi-weekly peek into my mind.
 
 P.S If you haven't watched the tv show called Friends, it's a crime ( I couldn't stop myself).
+
+---

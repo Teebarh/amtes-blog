@@ -23,19 +23,23 @@
 
 /* CUSTOM ARTICLE FONT SPECIFICATIONS */
 
-.custom-article.outfit {
+.custom-article {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.outfit {
   font-family: outfit;
 }
 
-.custom-article.rubik {
+.rubik {
   font-family: rubik;
 }
 
-.custom-article.TT2020E {
+.TT2020E {
   font-family: TT2020E;
 }
 
-.custom-article.pretendard {
+.pretendard {
   font-family: pretendard;
 }
 
@@ -43,11 +47,6 @@
 
 body {
   font-family: rubik;
-  font-size: 16px;
-}
-
-article {
-  line-height: 1.25rem;
 }
 
 /* CUSTOM ELEMENTS  */

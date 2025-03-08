@@ -1,9 +1,5 @@
 ---
-showDate: false
-showReadingTime: false
-showWordCount: false
-type: custom
-layout: centered
+title: "Welcome to the Blog"
 ---
 
 <div class="container">
@@ -33,7 +29,7 @@ About Us
 
 ---
 
-{{< home-list title="🏄‍♂️ Dive into Our Fresh Guides" cardView=false limit=3 where="Type" value="guide" >}}
+{{< home-list title="🏄‍♂️ Dive into Our Fresh Guides" cardView=false limit=3 where="type" value="guide" >}}
 
 ---
 
@@ -48,6 +44,7 @@ Join our dynamic student blogging team and let your voice be heard!
 <a href="#tally-open=wb4kqE&tally-overlay=1&tally-emoji-text=👋 Hi&tally-emoji-animation=wave&tally-auto-close=0" class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Apply Now!</a>
 
 ---
+
 <div class="container">
     <h2>Enroll in Our Embedded Systems Program 🤖</h2>
 </div>

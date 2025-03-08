@@ -1,12 +1,10 @@
 ---
-date: '2024-10-25T17:08:41+01:00'
-draft: false
 title: "IN THE LIMELIGHT: CELEBRATING RESEARCH EXCELLENCE"
+date: "2024-10-25T17:08:41+01:00"
 showCards: true
 cardView: true
-cascade:
-  showSummary: true
 ---
+
 <style>
   header {
     display: none;

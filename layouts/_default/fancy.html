@@ -47,9 +47,9 @@
                     <h1 class="m-0 text-4xl font-bold text-neutral-900 dark:text-neutral">
                         {{ .Title | emojify }}
                     </h1>
-                    <p class="mt-1 text-lg font-light dark:text-neutral-400">
+                    <!-- <p class="mt-1 text-lg font-light dark:text-neutral-400">
                         {{ with .Params.subtitle }}{{ . }}{{ end }}
-                    </p>
+                    </p> -->
                     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
                         {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
                     </div>
@@ -91,9 +91,20 @@
                     {{ end }}
                 </header>
 
+               <section class="m-6 mx-auto prose dark:prose-invert">
+                    <p class="text-xl font-light tracking-wide text-neutral-600 dark:text-neutral-400">
+                        {{ with .Params.subtitle | emojify }}{{ . }}{{ end }}
+                    </p>
+                </section>
+                <!-- <section class="mt-4 mx-auto prose dark:prose-invert">
+                    <p class="text-sm">
+                        <em>Updated: {{ with .Params.updated | emojify }}{{ . }}{{ end }}</em>
+                    </p>
+                </section> -->
+
                 <!-- FULL WIDTH IMAGE -->
-                {{ if .Page.Scratch.Get "fullwidth_image" }}
-                {{.Page.Scratch.Get "fullwidth_image" | safeHTML }} 
+                {{ if .Page.Store.Get "fullwidth_image" }}
+                {{.Page.Store.Get "fullwidth_image" | safeHTML }} 
                 {{ end }}
 
                 <section

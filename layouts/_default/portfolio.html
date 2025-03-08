@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resource Cards</title>
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.5/cdn.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
 </head>
@@ -18,13 +19,14 @@
             <h2 class="text-2xl font-semibold mb-4 text-gray-700">Filter by Tags</h2>
             <div class="flex flex-wrap gap-3">
                 <template x-for="tag in availableTags" :key="tag">
-                    <button @click="toggleTag(tag)"
+                    <button @click="toggleTag(tag)" @keydown.enter="toggleTag(tag)"
                         class="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200"
                         :class="selectedTags.includes(tag) ? 'bg-blue-600 text-white' : 'bg-gray-200 hover:bg-gray-300'"
-                        x-text="tag"></button>
+                        x-text="tag" :aria-label="'Filter by ' + tag"></button>
                 </template>
-                <button @click="clearTags()"
-                    class="px-4 py-2 rounded-full text-sm font-medium bg-gray-400 text-white hover:bg-gray-500 transition-colors duration-200 ml-2">
+                <button @click="clearTags()" @keydown.enter="clearTags()"
+                    class="px-4 py-2 rounded-full text-sm font-medium bg-gray-400 text-white hover:bg-gray-500 transition-colors duration-200 ml-2"
+                    aria-label="Clear Filters">
                     Clear Filters
                 </button>
             </div>

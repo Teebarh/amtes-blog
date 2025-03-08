@@ -1,10 +1,9 @@
 ---
-date: '2024-10-25T17:51:22+01:00'
+date: "2024-10-25T17:51:22+01:00"
 draft: false
-title: 'Embedded Machine Learning'
-type: custom
+title: "Embedded Machine Learning"
 layout: centered
-Type: guide
+type: guide
 ---
 
 Machine learning has traditionally been associated with powerful servers and cloud-based systems, but recent advancements have enabled the integration of machine learning models directly into embedded systems. This paradigm shift, known as Embedded Machine Learning (Embedded ML), is transforming how intelligent systems operate at the edge.

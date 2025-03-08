@@ -1,0 +1,34 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $height := .Get "height" | default "768" }}
+{{ $width := .Get "width" | default "1920" }}
+
+{{/* Common CSS classes */}}
+{{ $figureClass := printf "w-full flex justify-center h-[%spx] overflow-hidden" $height }}
+{{ $imgClass := "w-full h-full object-cover" }}
+
+{{/* Try to get the image */}}
+{{ $image := "" }}
+{{ if hasPrefix $src "http" }}
+{{ with resources.GetRemote $src }}
+{{ $image = . }}
+{{ end }}
+{{ else }}
+{{ with .Page.Resources.GetMatch (printf "*%s" $src) }}
+{{ $image = . }}
+{{ end }}
+{{ end }}
+
+{{/* Generate the HTML */}}
+{{ $imageContent := "" }}
+{{ if $image }}
+{{ with $image.Crop (printf "%sx%s" $width $height) }}
+{{ $imageContent = printf "<figure class=\"%s\"><img src=\"%s\" alt=\"%s\" class=\"%s\"></figure>" $figureClass
+.RelPermalink $alt $imgClass }}
+{{ end }}
+{{ else }}
+{{ $imageContent = printf "<figure class=\"%s\"><img src=\"%s\" alt=\"%s\" class=\"%s\"></figure>" $figureClass $src
+$alt $imgClass }}
+{{ end }}
+
+{{ .Page.Store.Set "fullwidth_image" $imageContent }}

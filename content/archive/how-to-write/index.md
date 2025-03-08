@@ -1,14 +1,9 @@
 ---
-date: '2024-10-25T18:36:38+01:00'
-draft: false
+date: "2024-10-25T18:36:38+01:00"
 title: "WRITING GUIDE"
-type: custom
 layout: centered
-showDate: false
-showWordCount: false
-showReadingTime: false
-showBreadcrumbs: false
 ---
+
 <style>
   header {
     display: none;

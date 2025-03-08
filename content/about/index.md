@@ -1,10 +1,7 @@
 ---
-date: '2024-10-25T17:32:37+01:00'
-draft: false
-title: 'ABOUT US'
-type: custom
+title: "ABOUT US"
+date: "2024-10-25T17:32:37+01:00"
 layout: centered
-showTableOfContents: false
 ---
 
 <style>
@@ -16,7 +13,6 @@ showTableOfContents: false
 <div class="container">
   <h1>Get To Know Us</h1>
 </div>
-
 
 Welcome to the Mechatronics Engineering Department (AMTES) at FUNAAB. Here, you can learn about our mission, vision, and the exciting opportunities we offer.
 
@@ -34,4 +30,4 @@ We envision a future where our graduates lead the way in engineering innovation,
 
 ## Learn More
 
-Explore more about our department by getting in touch with us or browsing through [our blog]({{< ref "projects" >}}). You can also follow us on our social media channels to stay updated with the latest news and events.
+Explore more about our department by getting in touch with us or browsing through [our blog]({{< ref "blog" >}}). You can also follow us on our social media channels to stay updated with the latest news and events.

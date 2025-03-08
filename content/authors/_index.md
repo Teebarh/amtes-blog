@@ -2,9 +2,9 @@
 title: "MEET THE BLOGGERS"
 cascade:
   showDate: false
-  showWordCount: false
   showReadingTime: false
 ---
+
 <style>
   header {
     display: none;

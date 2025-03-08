@@ -1,5 +1,5 @@
 colorScheme = "noir" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
-defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
 enableSearch = true
@@ -13,7 +13,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed-fill-blur" # basic, fixed, fixed-fill-blur
+  layout = "custom" # basic, fixed, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -23,7 +23,7 @@ smartTOCHideUnfocusedChildren = true
   showScrollToTop = true
 
 [homepage]
-  layout = "card" # valid options: page, profile, hero, card, background, custom
+  layout = "page" # valid options: page, profile, hero, card, background, custom
   homepageImage = "" # used in: hero, and card
   showRecent = false
   showRecentItems = 3
@@ -40,7 +40,7 @@ smartTOCHideUnfocusedChildren = true
   showDateUpdated = true
   showAuthor = true
   showHero = true
-  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  # heroStyle = "" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -63,7 +63,7 @@ smartTOCHideUnfocusedChildren = true
   showZenMode = false
 
 [list]
-  showHero = true
+  showHero = false
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background

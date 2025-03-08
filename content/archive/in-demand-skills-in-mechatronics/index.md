@@ -1,10 +1,9 @@
 ---
-date: '2024-10-25T18:34:51+01:00'
+date: "2024-10-25T18:34:51+01:00"
 draft: false
-title: 'In Demand Skills in Mechatronics'
-type: custom
+title: "In Demand Skills in Mechatronics"
 layout: centered
-Type: guide
+type: guide
 ---
 
 Mechatronics Engineering is a dynamic and interdisciplinary field that combines mechanical engineering, electronics, computer science, and control engineering. As technology continues to evolve, so do the skills required to excel in this field. In 2024, several skills will be particularly in demand due to advancements in automation, artificial intelligence, and the Internet of Things (IoT). This article explores the key skills that Mechatronics Engineers should focus on to stay competitive and meet industry demands.
