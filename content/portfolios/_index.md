@@ -1,15 +1,6 @@
 ---
-title: 'Portfolios'
-date: '2025-03-03T10:22:26+01:00'
-draft: false
-heroStyle: big # big, basic, background, thumbAndBackground
-tags: [portfolios]
-showDate: false
-showAuthor: false
-showReadingTime: false
-showEdit: false
-layoutBackgroundHeaderSpace: false
-cardViewScreenWidth: false
+title: "Portfolios"
+date: "2025-03-03T10:22:26+01:00"
 ---
 
 <style>

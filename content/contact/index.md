@@ -1,11 +1,7 @@
 ---
-title: "CONTACT"
+title: "Contact Us"
 date: '2024-10-25T18:38:03+01:00'
-draft: false
-showDate: false
-showWordCount: false
-showReadingTime: false
-sharingLinks: false
+layout: centered
 ---
 
 <style>
@@ -14,8 +10,16 @@ sharingLinks: false
   }
 </style>
 
-<h1 class="responsive-title-style-2">Hit Us Up!</h1>
+<h1 class="responsive-title-style-2">Get in Touch!</h1>
 
-We’re all ears! Whether you’ve got feedback, a burning question, or an awesome blog post idea, don’t hesitate to reach out. We can’t wait to hear from you!
+We'd love to hear from you! Whether you have feedback, questions, or ideas for our blog, feel free to reach out. We're here to listen!
 
-<iframe data-tally-src="https://tally.so/embed/nPBEzx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="189" frameborder="0" marginheight="0" marginwidth="0" title="AMTES-Blog-Newsletter"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+📬[Send us an Email!](mailto:amtesfunaab+blog@gmail.com)
+
+## Office Hours
+
+We're available during these hours:
+
+- **Monday - Friday:** 9:00 AM - 5:00 PM
+- **Saturday:** 10:00 AM - 2:00 PM
+- **Sunday:** Closed

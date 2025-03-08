@@ -1,24 +1,7 @@
 [[main]]
-  name = "Community"
+  name = "🗣️"
+  pageRef = "broadcast"
   weight = 10
-
-[[main]]
-  name = "About Us"
-  parent = "Community"
-  pageRef = "about"
-  weight = 11
-
-[[main]]
-  name = "Announcements"
-  parent = "Community"
-  pageRef = "announcements"
-  weight = 12
-
-[[main]]
-  name = "Academia & Research"
-  parent = "Community"
-  pageRef = "papers"
-  weight = 13
 
 [[main]]
   name = "Student Life"
@@ -30,11 +13,11 @@
   pageRef = "blog"
   weight = 21
 
-[[main]]
-  name = "Series"
-  parent = "Student Life"
-  pageRef = "series"
-  weight = 22
+# [[main]]
+#   name = "Series"
+#   parent = "Student Life"
+#   pageRef = "series"
+#   weight = 22
 
 [[main]]
   name = "Bloggers"
@@ -43,26 +26,60 @@
   weight = 23
 
 [[main]]
-  name = "Projects"
+  name = "Portfolios"
   parent = "Student Life"
-  pageRef = "projects"
+  pageRef = "portfolios"
   weight = 24
 
 [[main]]
-  name = "Careers & Alumni"
-  pageRef = "alumni"
+  name = "Community"
   weight = 30
 
+[[main]]
+  name = "About Us"
+  parent = "Community"
+  pageRef = "about"
+  weight = 31
+
+[[main]]
+  name = "Contact"
+  parent = "Community"
+  pageRef = "contact"
+  weight = 32
+
+[[main]]
+  name = "Careers & Alumni"
+  parent = "Community"
+  pageRef = "alumni"
+  weight = 33
+
+[[main]]
+  name = "Academia & Research"
+  parent = "Community"
+  pageRef = "papers"
+  weight = 34
+
+[[main]]
+  name = "Explore"
+  weight = 40
+
+[[main]]
+  name = "Projects"
+  parent = "Explore"
+  pageRef = "projects"
+  weight = 41
 
 [[main]]
   name = "Guides"
+  parent = "Explore"
   pageRef = "guides"
-  weight = 40
-  
+  weight = 42  
+
 [[main]]
-  name = "Contact Us"
-  pageRef = "contact"
-  weight = 50
+  name = "Docs"
+  parent = "Explore"
+  pageRef = "docs"
+  weight = 43
   
 [[main]]
   pre  = "github"

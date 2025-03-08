@@ -1,17 +1,20 @@
 ---
-title: 'What It Really Takes to Earn a First-Class Degree'
-date: '2025-03-01T11:33:38+01:00'
+title: "What It Really Takes to Earn a First-Class Degree"
+date: "2025-03-01T11:33:38+01:00"
 authors:
   - "toyibat"
 draft: false
-heroStyle: big
+layout: centered
+cover:
+  src: "bisiriyu-babatunde-thumbnail.png"
+  alt: "Bisiriyu Babatunde"
 ---
 
-*Babatunde Bisiriyu’s journey in engineering is a story of passion, hard work, and curiosity. From studying Electrical and Electronics Engineering at Gateway Polytechnic to graduating with a first-class degree in Mechatronics Engineering from FUNAAB, he has always been eager to learn and push his limits.*
+_Babatunde Bisiriyu’s journey in engineering is a story of passion, hard work, and curiosity. From studying Electrical and Electronics Engineering at Gateway Polytechnic to graduating with a first-class degree in Mechatronics Engineering from FUNAAB, he has always been eager to learn and push his limits._
 
-*For over five years, Babatunde has shared his love for math and science by tutoring students in Nigeria and beyond. But his interests go beyond teaching. He is deeply fascinated by robotics, artificial intelligence, machine learning, and virtual reality. He sees engineering as a way to bring ideas to life and create real solutions to everyday problems.*  
+_For over five years, Babatunde has shared his love for math and science by tutoring students in Nigeria and beyond. But his interests go beyond teaching. He is deeply fascinated by robotics, artificial intelligence, machine learning, and virtual reality. He sees engineering as a way to bring ideas to life and create real solutions to everyday problems._
 
-*In this interview, the first in our AMTES Alumni Series, Babatunde talks about his journey, the challenges of studying engineering in Nigeria, and his hopes for the future of technology.*
+_In this interview, the first in our AMTES Alumni Series, Babatunde talks about his journey, the challenges of studying engineering in Nigeria, and his hopes for the future of technology._
 
 **Hello, Babatunde! Good afternoon. I’m Toyibat, as you already know, from the AMTES writer team. I hope you’re having a good day so far?**
 
@@ -37,7 +40,7 @@ Did I get the result I came seeking? Absolute YES. It was first class or nothing
 
 **What were some of the things you did differently that you feel helped you hit a perfect GPA and maintain a first class CGPA?**
 
-It might sound unconventional but it started with ensuring financial stability. I redefined my study pattern also, and ensured not to miss classes. I worked with past papers more often, and I wrote a watchword, *(JUST DO IT),* on my board at home to serve as a reminder, and motivation that my dream was valid and doable.
+It might sound unconventional but it started with ensuring financial stability. I redefined my study pattern also, and ensured not to miss classes. I worked with past papers more often, and I wrote a watchword, _(JUST DO IT),_ on my board at home to serve as a reminder, and motivation that my dream was valid and doable.
 
 **I can see how this helped keep you motivated and consistent. Congratulations on hitting your goal! It must not have been easy.**
 
@@ -71,7 +74,7 @@ That will be awesome. Look into it. Add volunteering experiences if possible. It
 
 I wish you the best of luck Toyibat.
 
-**Thank you so much, Babatunde. We’re almost at the end with two more questions to go.  For my 6th question, I’d like to ask, how did you manage everything you had going on and avoid getting burnt out? If you did get burnt out, how did you navigate that?**
+**Thank you so much, Babatunde. We’re almost at the end with two more questions to go. For my 6th question, I’d like to ask, how did you manage everything you had going on and avoid getting burnt out? If you did get burnt out, how did you navigate that?**
 
 I already understood the concept of burning out because I already worked as a classroom teacher before resuming Funaab. I had less burnout experience because I was doing things that I really wanted to do. On a few occasions when I feel uninterested, I still have a decent social life. I watch football games, go to parties with friends and randomly visit home. So, I didn't really experience burnout.
 
@@ -97,10 +100,10 @@ You too. Have an awesome day. Cheers!🎉
 
 **Thank you!💃🏾💃🏾**
 
-*Babatunde Bisiriyu’s journey is proof that engineering isn’t just about what you learn in class, it’s about what you do with that knowledge. Whether he’s tutoring students, exploring robotics and AI, or finding new ways to apply his skills, he sees engineering as more than a career. To him, it’s a tool for solving problems and shaping the future.*  
+_Babatunde Bisiriyu’s journey is proof that engineering isn’t just about what you learn in class, it’s about what you do with that knowledge. Whether he’s tutoring students, exploring robotics and AI, or finding new ways to apply his skills, he sees engineering as more than a career. To him, it’s a tool for solving problems and shaping the future._
 
-*As he continues to learn and grow, one thing is certain: his impact is only just beginning. With his drive and curiosity, he’s not just following a path—he’s helping to create it.*
+_As he continues to learn and grow, one thing is certain: his impact is only just beginning. With his drive and curiosity, he’s not just following a path—he’s helping to create it._
 
-*From all of us at AMTES, we celebrate you!*
+_From all of us at AMTES, we celebrate you!_
 
-*If you'd like to connect with him, you can reach him at* <bisiriyu.babatunde@gmail.com>.
+_If you'd like to connect with him, you can reach him at_ <bisiriyu.babatunde@gmail.com>.
