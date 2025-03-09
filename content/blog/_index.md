@@ -1,13 +1,8 @@
 ---
 title: "BLOG"
 date: '2024-10-25T17:05:01+01:00'
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <h1 class="responsive-title-style-2">
   ✍️ Blogosphere<br>[blaw-guh-sfeer]<em>noun</em> 

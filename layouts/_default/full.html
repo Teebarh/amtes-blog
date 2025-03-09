@@ -5,15 +5,8 @@
 {{ partial "cover.html" . }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
-    {{ if not (.Params.header | default true) }}
-    <style>
-        #single_header {
-            display: none;
-        }
-    </style>
-    {{ end }}
-    <header id="single_header" class="mt-5">
+<article class="container mx-auto">
+    <header id="single_header" class="mt-5 max-w-prose mx-auto">
 
         <!-- BREADCRUMBS -->
         {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
@@ -77,9 +70,13 @@
 {{.Page.Store.Get "fullwidth_image" | safeHTML }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
-    <section class="mt-0
-    prose dark:prose-invert prose-img:rounded-xl prose-a:text-primary-600 dark:prose-a:text-primary-400">
+<article class="container mx-auto">
+    <section class="mt-0 prose dark:prose-invert mx-auto
+               prose-img:rounded-xl 
+               prose-img:drop-shadow-2xl 
+               prose-a:text-primary-600 
+               dark:prose-a:text-primary-400 
+               max-w-prose">
 
         <!-- Show related posts -->
         {{ if .Site.Params.article.showRelatedPosts | default false }}
@@ -91,8 +88,14 @@
         <!-- Open series -->
         {{ partial "series/series.html" . }}
 
-        <!-- Show content -->
-        <div class="article-content mb-20">
+        <!-- Modified content div with full-width image support -->
+        <div class="article-content mb-20 relative
+                    [&>figure.full-width]:!-mx-[calc(50%-50vw)]
+                    [&>figure.full-width]:!max-w-[100vw]
+                    [&>figure.full-width]:!w-screen
+                    [&>figure.full-width]:relative
+                    [&>figure.full-width>img]:w-full
+                    [&>figure.full-width>img]:rounded-none">
             {{ .Content | emojify }}
         </div>
 

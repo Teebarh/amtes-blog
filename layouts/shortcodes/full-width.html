@@ -1,0 +1,8 @@
+<figure class="full-width my-8">
+    <img src="{{ .Get " src" }}" alt="{{ .Get " alt" }}" class="w-full h-auto object-cover" />
+    {{ with .Get "caption" }}
+    <figcaption class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">
+        {{ . }}
+    </figcaption>
+    {{ end }}
+</figure>

@@ -2,13 +2,8 @@
 title: "Contact Us"
 date: '2024-10-25T18:38:03+01:00'
 layout: centered
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <h1 class="responsive-title-style-2">Get in Touch!</h1>
 

@@ -3,8 +3,8 @@
 {{ $height := .Get "height" | default "768" }}
 {{ $width := .Get "width" | default "1920" }}
 
-{{/* Common CSS classes */}}
-{{ $figureClass := printf "w-full flex justify-center h-[%spx] overflow-hidden" $height }}
+{{/* Common CSS classes (removed w-full) */}}
+{{ $figureClass := printf "w-full rounded-lg drop-shadow-2xl flex justify-center h-[%spx] overflow-hidden" $height }}
 {{ $imgClass := "w-full h-full object-cover" }}
 
 {{/* Try to get the image */}}

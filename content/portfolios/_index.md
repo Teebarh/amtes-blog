@@ -1,13 +1,8 @@
 ---
 title: "Portfolios"
 date: "2025-03-03T10:22:26+01:00"
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <h1 class="responsive-title-style-2">Portfolios</h1>
 

@@ -2,13 +2,8 @@
 title: "ABOUT US"
 date: "2024-10-25T17:32:37+01:00"
 layout: centered
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <div class="container">
   <h1>Get To Know Us</h1>

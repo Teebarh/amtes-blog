@@ -4,6 +4,6 @@ date: "{{ .Date }}"
 authors:
   - ""
 draft: false
-heroStyle: big # big, basic, background, thumbAndBackground
 layout:  centered # centered | default single
+showAuthorBottom: false # true | default false
 ---

@@ -2,13 +2,8 @@
 title: "BROADCAST"
 date: "2024-10-25T17:17:18+01:00"
 layout: centered
+header: false
 ---
-
-<style>
-    header {
-        display: none;
-    }
-</style>
 
 _Updated: 2024-03-06_
 
@@ -20,7 +15,7 @@ Ever wondered what sparks the passion behind Mechatronics? 🤔 We're diving dee
 
 Get ready to discover the diverse journeys and motivations that led them to this dynamic field.
 
-[[Read more]](/blog/why-mechatronics)
+[[Read more]]({{< ref "why-mechatronics" >}})
 
 ---
 
@@ -28,4 +23,4 @@ Get ready to discover the diverse journeys and motivations that led them to this
 
 Get a glimpse of the world outside these walls from students who have walked the same path. We're bringing to you [LIVE] from our keyboards familiar and non-familiar faces in our Alumni series.
 
-[[Read more]](/alumni)
+[[Read more]]({{< ref "alumni" >}})

@@ -6,6 +6,13 @@
 {{ end }}
 
 <article>
+    {{ if not (.Params.header | default true) }}
+    <style>
+        #single_header {
+            display: none;
+        }
+    </style>
+    {{ end }}
     <header id="single_header" class="mt-5">
 
         <!-- BREADCRUMBS -->

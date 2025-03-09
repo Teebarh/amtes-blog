@@ -7,6 +7,7 @@ draft: false
 heroStyle: big
 summary: "🐤 coming soon..."
 tags: ["StudentStories"]
+header: false
 ---
 
 {{< lead >}}

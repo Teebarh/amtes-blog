@@ -2,13 +2,8 @@
 date: "2024-10-25T18:36:38+01:00"
 title: "WRITING GUIDE"
 layout: centered
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <div class="container">
   <h1>The Ultimate Writing Guide</h1>
