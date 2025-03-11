@@ -1,24 +1,37 @@
 /* IMPORTING FONTS */
 
-@font-face {
-  font-family: outfit;
-  src: url("/fonts/outfit.ttf");
-}
+/* Web Fonts */
 
 @font-face {
-  font-family: rubik;
-  src: url("/fonts/Rubik-Regular.ttf");
+  font-family: pretendard;
+  src: url("/fonts/Pretendard-Regular.woff2");
 }
-
 
 @font-face {
   font-family: TT2020E;
   src: url("/fonts/TT2020E.woff2");
 }
 
+/* TTF fonts */
+
 @font-face {
-  font-family: pretendard;
-  src: url("/fonts/Pretendard-Regular.woff2");
+  font-family: Jost;
+  src: url("/fonts/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-family: Baskervville;
+  src: url("/fonts/Baskervville-Regular.ttf");
+}
+
+@font-face {
+  font-family: RougeScript;
+  src: url("/fonts/RougeScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: SplineSansMono;
+  src: url("/fonts/SplineSansMono-Regular.ttf");
 }
 
 /* CUSTOM ARTICLE FONT SPECIFICATIONS */
@@ -27,27 +40,36 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.outfit {
-  font-family: outfit;
-}
-
-.rubik {
-  font-family: rubik;
-}
-
 .TT2020E {
   font-family: TT2020E;
 }
 
-.pretendard {
-  font-family: pretendard;
+.Pretendard {
+  font-family: Pretendard;
+}
+
+.Jost {
+  font-family: Jost;
+}
+
+.Baskervville {
+  font-family: Baskervville;
+}
+
+.RougeScript {
+  font-family: RougeScript;
+}
+
+.SplineSansMono {
+  font-family: SplineSansMono;
 }
 
 /* PAGE DEFINITIONS */
 
 body {
-  font-family: rubik;
+  font-family: Pretendard;
 }
+
 
 /* CUSTOM ELEMENTS  */
 

@@ -5,7 +5,7 @@
 {{ partial "cover.html" . }}
 {{ end }}
 
-<article>
+<article class="{{ with .Params.font }}{{ . }}{{ end }}">
     {{ if not (.Params.header | default true) }}
     <style>
         #single_header {
@@ -70,8 +70,13 @@
 
         {{ end }}
     </header>
+    
+    <!-- FULL WIDTH IMAGE -->
+    {{ if .Page.Store.Get "fullwidth_image" }}
+    {{.Page.Store.Get "fullwidth_image" | safeHTML }}
+    {{ end }}
 
-    <section class="mt-0
+    <section class="flex flex-col max-w-full mt-0
     prose dark:prose-invert prose-img:rounded-xl prose-a:text-primary-600 dark:prose-a:text-primary-400 lg:flex-row">
         {{ if or (and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false))
         (in
@@ -82,8 +87,8 @@
 
                 {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default
                 false)) (in
-                .TableOfContents "<ul") }} {{ partial "toc.html" . }} {{ end }} {{ if
-                    .Site.Params.article.showRelatedPosts | default false }} sd {{ end }} </div>
+                .TableOfContents "<ul") }} {{ partial "toc.html" . }} {{ end }} {{ if .Site.Params.article.showRelatedPosts | default false }} sd {{ end }} 
+            </div>
             </div>
             {{ end }}
 
@@ -134,7 +139,19 @@
 
             {{ partial "series/series-closed.html" . }}
             {{ partial "sharing-links.html" . }}
-            {{ partial "related.html" . }}  
+            {{ partial "related.html" . }}
+            
+            {{ if .Params.enableComments | default false }}
+            {{ if templates.Exists "partials/cusdis.html" }}
+            <div class="pt-6">
+                <h2 class="text-xl font-semibold text-neutral-800 dark:text-neutral-200">🗨️ Comments</h2>
+                <hr class="mt-2 mb-2 border-t border-neutral-300 dark:border-neutral-600" />
+                <div class="pt-4">
+                    {{ partial "cusdis.html" . }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
       </div>
     </section>
 

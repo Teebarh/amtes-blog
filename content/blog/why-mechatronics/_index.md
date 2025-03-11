@@ -7,5 +7,5 @@ cascade:
   showAuthorBottom: true
 ---
 
-Feel free to reach out and share your journey with us. 📬 [Send us an Email](mailto:amtesfunaab+blog@gmail.com)
+Share your journey with us [via email](mailto:amtesfunaab+blog@gmail.com) 📬 or [schedule a meeting](https://calendly.com/amtesfunaab).
 

@@ -5,7 +5,7 @@
 {{ partial "cover.html" . }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
+<article class="mx-auto max-w-prose {{ with .Params.font }}{{ . }}{{ end }}">
     {{ if not (.Params.header | default true) }}
     <style>
         #single_header {
@@ -77,7 +77,7 @@
 {{.Page.Store.Get "fullwidth_image" | safeHTML }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
+<article class="mx-auto max-w-prose {{ with .Params.font }}{{ . }}{{ end }}">
     <section class="mt-0
     prose dark:prose-invert prose-img:rounded-xl prose-a:text-primary-600 dark:prose-a:text-primary-400">
 
@@ -88,14 +88,49 @@
         </div>
         {{ end }}
 
-        <!-- Open series -->
-        {{ partial "series/series.html" . }}
+        <div class="min-w-0 min-h-0 max-w-fit">
 
-        <!-- Show content -->
-        <div class="article-content mb-20">
-            {{ .Content | emojify }}
+            {{ partial "series/series.html" . }}
+
+            <div class="article-content mb-20">
+                {{ .Content }}
+                {{ $defaultReplyByEmail := .Site.Params.replyByEmail }}
+                {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
+                {{ if $replyByEmail }}
+                {{ $authorsData := .Site.Data.authors }}
+                {{ if .Page.Params.authors }}
+                {{ $firstAuthor := index .Page.Params.authors 0 }}
+                {{ $otherAuthors := slice }}
+                {{ if gt (len .Page.Params.authors) 1 }}
+                {{ $otherAuthors = after 1 .Page.Params.authors }}
+                {{ end }}
+                {{ $firstEmail := "" }}
+                {{ $ccEmails := slice }}
+                {{ with index $authorsData $firstAuthor }}
+                {{ $firstEmail = .email }}
+                {{ end }}
+                {{ range $otherAuthors }}
+                {{ with index $authorsData . }}
+                {{ $ccEmails = $ccEmails | append .email }}
+                {{ end }}
+                {{ end }}
+                {{ $ccString := delimit $ccEmails "," }}
+                {{ $mailtoURL := printf "mailto:%s" $firstEmail }}
+                {{ if $ccString }}
+                {{ $mailtoURL = printf "%s?cc=%s" $mailtoURL $ccString }}
+                {{ end }}
+                {{ $mailtoURL = printf "%s&subject=%s" $mailtoURL ($.Title | htmlEscape) }}
+                <strong class="block mt-8">
+                    <a target="_blank"
+                        class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+                        href="{{ $mailtoURL }}">
+                        Reply by Email
+                    </a>
+                </strong>
+                {{ end }}
+                {{ end }}
+            </div>
         </div>
-
 
         <!-- showAuthor Logic -->
         {{ if (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
@@ -127,6 +162,18 @@
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}
+
+        {{ if .Params.enableComments | default false }}
+        {{ if templates.Exists "partials/cusdis.html" }}
+        <div class="pt-6">
+            <h2 class="text-xl font-semibold text-neutral-800 dark:text-neutral-200">🗨️ Comments</h2>
+            <hr class="mt-2 mb-2 border-t border-neutral-300 dark:border-neutral-600" />
+            <div class="pt-4">
+                {{ partial "cusdis.html" . }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
     </section>
 
     {{ $translations := .AllTranslations }}

@@ -15,11 +15,16 @@ buildFuture = true
 
 enableEmoji = true
 
+enableGitInfo = true
+
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
   pagerSize = 100
 
+
+[frontmatter]
+  lastmod = ['lastmod', ':git', ':fileModTime']
 
 [author]
   name = "AMTES FUNAAB"
