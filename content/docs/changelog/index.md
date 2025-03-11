@@ -1,21 +1,26 @@
 ---
-title: "Changelog"
+title: "The Changelog"
 date: "2025-03-10T12:56:28+01:00"
-modified:
-font: SplineSansMono
+showDate: false
+showDateUpdated: true
 ---
-
-# Welcome to The Changelog
 
 This changelog tracks updates and improvements to the AMTES blog. Each entry documents new features, improvements, and breaking changes.
 
-## Latest Update (2025-03-10)
+## [Latest] Update
+
+- Fixed `sd` typo in `layouts/_default/single.html` and added `related.html` partial
+- Formatted `single.html`
+- Fixed `lastmod` configuration to allow individual pages determine whether updated date is shown.
+
+
+## Major Update (2025-03-10)
 
 ### New Features
 
 - Added open-source comment system: [Cusdis](https://cusdis.com)
 - Added `subtitle` frontmatter property
-- Added 4 new fonts: Baskervville, Jost, RougeScript, and SplineSansMono
+- Added 4 new fonts: Baskervville, Jost, RougeScript, and SpaceMono
 
 ### Improvements
 
@@ -153,5 +158,5 @@ enableGitInfo = true
 
 
 [frontmatter]
-  lastmod = ['lastmod', ':git', ':fileModTime']
+  lastmod = ['lastmod', ':fileModTime']
 ```

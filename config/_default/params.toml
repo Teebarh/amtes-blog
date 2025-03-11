@@ -1,4 +1,4 @@
-colorScheme = "noir" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
+colorScheme = "fire" # valid options: fire, princess, noir, avocado, forest, neon, bloody, terminal, marvel, autumn, congo, slate
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -21,7 +21,7 @@ replyByEmail = false
   layout = "custom" # basic, fixed, fixed-fill-blur
 
 [footer]
-  showMenu = true
+  showMenu = false
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
@@ -42,9 +42,9 @@ replyByEmail = false
   showDate = true
   showViews = false
   showLikes = false
-  showDateUpdated = true
+  showDateUpdated = false
   showAuthor = true
-  showHero = true
+  # showHero = true
   # heroStyle = "" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -68,7 +68,7 @@ replyByEmail = false
   showZenMode = false
 
 [list]
-  showHero = false
+  # showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -88,7 +88,7 @@ replyByEmail = false
 
 [taxonomy]
   showTermCount = false
-  showHero = true
+  # showHero = true
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
@@ -97,7 +97,7 @@ replyByEmail = false
   cardView = true
 
 [term]
-  showHero = false
+  # showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   showViews = false

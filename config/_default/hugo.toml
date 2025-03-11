@@ -15,7 +15,7 @@ buildFuture = true
 
 enableEmoji = true
 
-enableGitInfo = true
+enableGitInfo = false
 
 # googleAnalytics = "G-XXXXXXXXX"
 
@@ -24,7 +24,7 @@ enableGitInfo = true
 
 
 [frontmatter]
-  lastmod = ['lastmod', ':git', ':fileModTime']
+  lastmod = ['lastmod', ':fileModTime']
 
 [author]
   name = "AMTES FUNAAB"

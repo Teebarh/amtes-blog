@@ -1,26 +1,27 @@
 ---
-title: "BROADCAST"
+title: "📢 What's New!"
 date: "2024-10-25T17:17:18+01:00"
+showDate: false
+showDateUpdated: true
 layout: centered
-header: false
 ---
 
-_Updated: 2024-03-06_
+{{< fullwidth src="hero.jpg" alt="Lurking Minions" width="1920" height="768" >}}
 
-{{< fullwidth src="hero.jpg" alt="Microphone" >}}
+## 🎙️ "Why Mechatronics?"
 
-### 🎙️ "Why Mechatronics?" We asked. They answered.
+Ever wondered what sparks the passion behind Mechatronics? 🤔 Join us as we dive into the minds of fellow students in our new series: *Why Mechatronics?* Discover the diverse journeys and motivations that led them—and us—to this dynamic field.
 
-Ever wondered what sparks the passion behind Mechatronics? 🤔 We're diving deep into the minds of our fellow students, from first-year jitters to final-year projects. **"Why Mechatronics?"**
+{{< button href="../blog/why-mechatronics" >}}
+Read more
+{{< /button >}}
 
-Get ready to discover the diverse journeys and motivations that led them to this dynamic field.
+## 🤔 "What's Next After Graduation?"
 
-[[Read more]]({{< ref "why-mechatronics" >}})
+We bring you [LIVE] from our keyboards, familiar and unfamiliar faces in our *Alumni Stories* blog series. Get a glimpse of the outside world through the eyes of graduates who were once just as clueless about those practical reports. (It's okay, we get it. 🤧)
 
----
+Are you ready?
 
-### 🤔 "What's Next After Graduation?" You requested. We delivered!
-
-Get a glimpse of the world outside these walls from students who have walked the same path. We're bringing to you [LIVE] from our keyboards familiar and non-familiar faces in our Alumni series.
-
-[[Read more]]({{< ref "alumni" >}})
+{{< button href="../alumni" >}}
+Read more
+{{< /button >}}
