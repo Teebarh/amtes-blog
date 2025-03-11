@@ -1,0 +1,49 @@
+<div class="quote-container text-left my-8">
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" class="icon"
+            aria-hidden="true"
+            focusable="false"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+                d="M448 296c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72zm-256 0c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72z" />
+        </svg>
+    </div>
+    <blockquote class="text-xl border-gray-300">
+        <p>{{ .Get "quote" }}</p>
+    </blockquote>
+    <p class="quote-author font-bold pl-4 mt-2">—{{ .Get "author" }}</p>
+    <a href="{{ .Get " link" }}" target="_blank" class="text-blue-300 hover:underline mt-2 inline-block">{{ .Get
+        "linkText" }}→</a>
+</div>
+
+<style>
+    .icon {
+        vertical-align: middle;
+    }
+    
+    .quote-container {
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .quote-container blockquote {
+        font-size: 1.2em;
+        font-style: italic;
+        margin: 0 0 10px;
+        padding: 0 10px;
+        border-left: 5px solid #ccc;
+    }
+
+    .quote-container .quote-author {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .quote-container a {
+        color: #0073aa;
+        text-decoration: none;
+    }
+
+    .quote-container a:hover {
+        text-decoration: underline;
+    }
+</style>

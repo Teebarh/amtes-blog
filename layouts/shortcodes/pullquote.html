@@ -1,0 +1,26 @@
+<div class="pullquote">
+    <hr class="pullquote-hr">
+    <div class="pullquote-text">
+        {{ .Inner | markdownify }}
+    </div>
+    <hr class="pullquote-hr">
+</div>
+
+<style>
+    .pullquote {
+        font-style: italic;
+        text-align: center;
+        margin: 0 32px;
+        padding: 1rem;
+    }
+
+    .pullquote-hr {
+        border: thin solid #ddd;
+        width: 100%;
+        margin: 0;
+    }
+
+    .pullquote-text {
+        padding: 0 30px;
+    }
+</style>

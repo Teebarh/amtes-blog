@@ -2,13 +2,8 @@
 title: "CAREERS & ALUMNI"
 date: "2024-10-25T17:13:21+01:00"
 cardView: false
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <h1 class="responsive-title-style-2">Alumni Stories:<br>Engineering Dreams into Reality</h1>
 

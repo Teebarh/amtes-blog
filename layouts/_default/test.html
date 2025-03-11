@@ -5,8 +5,8 @@
 {{ partial "cover.html" . }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
-    <header id="single_header" class="mt-5">
+<article class="container mx-auto">
+    <header id="single_header" class="mt-5 max-w-prose mx-auto">
 
         <!-- BREADCRUMBS -->
         {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
@@ -70,9 +70,9 @@
 {{.Page.Store.Get "fullwidth_image" | safeHTML }}
 {{ end }}
 
-<article class="mx-auto max-w-prose">
-    <section class="mt-0
-    prose dark:prose-invert prose-img:rounded-xl prose-a:text-primary-600 dark:prose-a:text-primary-400">
+<article class="container mx-auto">
+    <section
+        class="mt-0 prose dark:prose-invert prose-img:rounded-xl prose-img:drop-shadow-2xl prose-a:text-primary-600 dark:prose-a:text-primary-400 max-w-prose mx-auto">
 
         <!-- Show related posts -->
         {{ if .Site.Params.article.showRelatedPosts | default false }}

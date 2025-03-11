@@ -1,13 +1,8 @@
 ---
 title: "GUIDES"
 date: '2024-10-25T17:35:43+01:00'
+header: false
 ---
-
-<style>
-  header {
-    display: none;
-  }
-</style>
 
 <h1 class="responsive-title-style-2">📈Level Up Your Tech Game</h1>
 {{< lead >}}
