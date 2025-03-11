@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "CONTACT"
 date: '2024-10-25T18:38:03+01:00'
 layout: centered
 header: false

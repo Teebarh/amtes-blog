@@ -2,22 +2,22 @@
 {{ .Scratch.Set "scope" "single" }}
 
 {{ if .Params.cover }}
-{{ partial "cover.html" . }}
+    {{ partial "cover.html" . }}
 {{ end }}
 
 <article class="mx-auto max-w-prose {{ with .Params.font }}{{ . }}{{ end }}">
     {{ if not (.Params.header | default true) }}
-    <style>
-        #single_header {
-            display: none;
-        }
-    </style>
+        <style>
+            #single_header {
+                display: none;
+            }
+        </style>
     {{ end }}
     <header id="single_header" class="mt-5">
 
         <!-- BREADCRUMBS -->
         {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
-        {{ partial "breadcrumbs.html" . }}
+            {{ partial "breadcrumbs.html" . }}
         {{ end }}
 
         <!-- TITLE -->
@@ -42,31 +42,31 @@
         {{ $showAuthor := 0 }}
 
         {{ if not (strings.HasSuffix $baseURL "/") }}
-        {{ $baseURL = delimit (slice $baseURL "/") "" }}
+            {{ $baseURL = delimit (slice $baseURL "/") "" }}
         {{ end }}
 
         {{ if not (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
 
-        {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
-        {{ $showAuthor = 1 }}
-        {{ partial "author.html" . }}
-        {{ end }}
+            {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+                {{ $showAuthor = 1 }}
+                {{ partial "author.html" . }}
+            {{ end }}
 
-        {{ range $author := .Page.Params.authors }}
-        {{ $authorData := index $authorsData $author }}
-        {{- if $authorData -}}
-        {{ range $taxonomyname, $taxonomy := $taxonomies }}
-        {{ if (eq $taxonomyname $author) }}
-        {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}
-        {{ end }}
-        {{ end }}
-        {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
-        {{- end -}}
-        {{ end }}
+            {{ range $author := .Page.Params.authors }}
+                {{ $authorData := index $authorsData $author }}
+                {{- if $authorData -}}
+                    {{ range $taxonomyname, $taxonomy := $taxonomies }} 
+                    {{ if (eq $taxonomyname $author) }} 
+                        {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}   
+                    {{ end }}   
+                    {{ end }}   
+                    {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}    
+                {{- end -}}
+            {{ end }}
 
-        {{ if or $taxonomyLink $showAuthor }}
-        <div class="mb-5"></div>
-        {{ end }}
+            {{ if or $taxonomyLink $showAuthor }}
+            <div class="mb-5"></div>
+            {{ end }}
 
         {{ end }}
     </header>
@@ -74,7 +74,7 @@
 
 <!-- FULL WIDTH IMAGE -->
 {{ if .Page.Store.Get "fullwidth_image" }}
-{{.Page.Store.Get "fullwidth_image" | safeHTML }}
+    {{.Page.Store.Get "fullwidth_image" | safeHTML }}
 {{ end }}
 
 <article class="mx-auto max-w-prose {{ with .Params.font }}{{ . }}{{ end }}">
@@ -135,21 +135,21 @@
         <!-- showAuthor Logic -->
         {{ if (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
 
-        {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
-        {{ $showAuthor = 1 }}
-        {{ partial "author.html" . }}
-        {{ end }}
+            {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+                {{ $showAuthor = 1 }}
+                {{ partial "author.html" . }}
+            {{ end }}
 
-        {{ range $author := .Page.Params.authors }}
-        {{ $authorData := index $authorsData $author }}
-        {{- if $authorData -}}
-        {{ range $taxonomyname, $taxonomy := $taxonomies }}
-        {{ if (eq $taxonomyname $author) }}
-        {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}
-        {{ end }}
-        {{ end }}
-        {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
-        {{- end -}}
+            {{ range $author := .Page.Params.authors }}
+            {{ $authorData := index $authorsData $author }}
+            {{- if $authorData -}}
+            {{ range $taxonomyname, $taxonomy := $taxonomies }}
+            {{ if (eq $taxonomyname $author) }}
+            {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}
+            {{ end }}
+            {{ end }}
+            {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+            {{- end -}}
         {{ end }}
 
         <!-- Extra bottom margin if taxonomy or authors are shown -->

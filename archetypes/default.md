@@ -1,10 +1,11 @@
 ---
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: "{{ .Date }}"
+showDateUpdated: false
 authors:
   - ""
 draft: false
-layout:  centered # centered | default single
-showAuthorBottom: false
+layout:  centered
 header: true
+showAuthorBottom: false
 ---
