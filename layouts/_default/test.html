@@ -5,7 +5,14 @@
 {{ partial "cover.html" . }}
 {{ end }}
 
-<article class="container mx-auto">
+<article class="container mx-auto {{ with .Params.font }}{{ . }}{{ end }}">
+    {{ if not (.Params.header | default true) }}
+    <style>
+        #single_header {
+            display: none;
+        }
+    </style>
+    {{ end}}
     <header id="single_header" class="mt-5 max-w-prose mx-auto">
 
         <!-- BREADCRUMBS -->
@@ -70,7 +77,7 @@
 {{.Page.Store.Get "fullwidth_image" | safeHTML }}
 {{ end }}
 
-<article class="container mx-auto">
+<article class="container mx-auto {{ with .Params.font }}{{ . }}{{ end }}">
     <section
         class="mt-0 prose dark:prose-invert prose-img:rounded-xl prose-img:drop-shadow-2xl prose-a:text-primary-600 dark:prose-a:text-primary-400 max-w-prose mx-auto">
 
@@ -81,13 +88,25 @@
         </div>
         {{ end }}
 
-        <!-- Open series -->
-        {{ partial "series/series.html" . }}
-
-        <!-- Show content -->
-        <div class="article-content mb-20">
-            {{ .Content | emojify }}
-        </div>
+            <div class="min-w-0 min-h-0 max-w-fit">
+            
+                {{ partial "series/series.html" . }}
+            
+                <div class="article-content mb-20">
+                    {{ .Content }}
+                    {{ $defaultReplyByEmail := .Site.Params.replyByEmail }}
+                    {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
+                    {{ if $replyByEmail }}
+                    <strong class="block mt-8">
+                        <a target="_blank"
+                            class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+                            href="mailto:{{ range $index, $author := .Page.Params.authors }}{{ with $.Site.Data.authors }}{{ with index . $author }}{{ with .email }}{{ if $index }},{{ end }}{{ . }}{{ end }}{{ end }}{{ end }}{{ end }}?subject={{ replace (printf "Reply to %s" $.Title) "\"" "'" }}">
+                            Reply by Email
+                        </a>        
+                    </strong>
+                    {{ end }}
+                </div>
+            </div>
 
 
         <!-- showAuthor Logic -->
@@ -120,6 +139,19 @@
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}
+
+
+        {{ if .Params.enableComments | default false }}
+        {{ if templates.Exists "partials/cusdis.html" }}
+        <div class="pt-6">
+            <h2 class="text-xl font-semibold text-neutral-800 dark:text-neutral-200">🗨️ Comments</h2>
+            <hr class="mt-2 mb-2 border-t border-neutral-300 dark:border-neutral-600" />
+            <div class="pt-4">
+                {{ partial "cusdis.html" . }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
     </section>
 
     {{ $translations := .AllTranslations }}

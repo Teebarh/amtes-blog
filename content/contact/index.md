@@ -9,7 +9,7 @@ header: false
 
 We'd love to hear from you! Whether you have feedback, questions, or ideas for our blog, feel free to reach out. We're here to listen!
 
-📬[Send us an Email!](mailto:amtesfunaab+blog@gmail.com)
+📬[Send us an e-mail](mailto:amtesfunaab+blog@gmail.com) or [schedule a meeting](https://calendly.com/amtesfunaab) with us:
 
 ## Office Hours
 

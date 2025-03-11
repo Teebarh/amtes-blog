@@ -5,5 +5,6 @@ authors:
   - ""
 draft: false
 layout:  centered # centered | default single
-showAuthorBottom: false # true | default false
+showAuthorBottom: false
+header: true
 ---

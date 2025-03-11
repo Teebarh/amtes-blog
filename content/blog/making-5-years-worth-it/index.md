@@ -4,7 +4,7 @@ date: '2025-03-01T12:59:35+01:00'
 authors:
   - "temiladeoluwa"
 draft: false
-heroStyle: big # big, basic, background, thumbAndBackground
+showAuthorBottom: true
 ---
 
 <pre>
