@@ -3,7 +3,7 @@ title: "Harvard Said Yes, Stanford Said Yes, She Had to Choose"
 date: "2025-03-12"
 authors:
   - "toyibat"
-draft: true
+draft: false
 layout: centered
 cover:
   src: "khaulat-abdulhakeem-thumbnail.png"
