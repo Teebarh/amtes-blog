@@ -1,5 +1,6 @@
 ---
 title: "🎙️ Why Mechatronics?"
+date: 2024-03-06
 summary: "🗓️ Starting March 14"
 showHero: false
 cardView: true
