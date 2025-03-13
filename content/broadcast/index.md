@@ -8,6 +8,15 @@ layout: centered
 
 {{< fullwidth src="hero.jpg" alt="Lurking Minions" width="1920" height="768" >}}
 
+## 🤔 "What If"
+
+What if innovation wasn't confined by the limitations of current technology but instead propelled by a continual reimagining of what's possible? 🤔 By questioning the status quo and considering new ideas and modifications to existing technologies, we invite you to join us on an exploratory journey that is both intellectually stimulating and perhaps a little crazy.
+
+{{< button href="../blog/what-if" >}}
+Read more
+{{< /button >}}
+
+
 ## 🎙️ "Why Mechatronics?"
 
 Ever wondered what sparks the passion behind Mechatronics? 🤔 Join us as we dive into the minds of fellow students in our new series: *Why Mechatronics?* Discover the diverse journeys and motivations that led them—and us—to this dynamic field.

@@ -122,7 +122,7 @@
                 {{ $mailtoURL = printf "%s&subject=%s" $mailtoURL ($.Title | htmlEscape) }}
                 <strong class="block mt-8">
                     <a target="_blank"
-                        class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+                        class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
                         href="{{ $mailtoURL }}">
                         Reply by Email
                     </a>

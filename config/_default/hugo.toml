@@ -10,7 +10,7 @@ enableRobotsTXT = true
 summaryLength = 0
 hasCJKLanguage = true
 
-buildDrafts = false
+buildDrafts = true
 buildFuture = true
 
 enableEmoji = true
