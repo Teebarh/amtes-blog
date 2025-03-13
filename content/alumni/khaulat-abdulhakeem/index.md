@@ -4,6 +4,7 @@ date: "2025-03-12"
 authors:
   - "toyibat"
 draft: false
+enableComments: true
 layout: centered
 cover:
   src: "khaulat-abdulhakeem-thumbnail.png"
