@@ -4,6 +4,7 @@ date: "2025-03-01T11:33:38+01:00"
 authors:
   - "toyibat"
 draft: false
+enableComments: true
 layout: centered
 cover:
   src: "bisiriyu-babatunde-thumbnail.png"
