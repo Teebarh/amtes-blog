@@ -1,7 +1,7 @@
 ---
 title: "Comments, Email Replies & New Shortcodes"
 date: "2025-03-10"
-draft: true
+draft: false
 layout:  centered # centered | default single
 ---
 
@@ -107,19 +107,4 @@ this
 
 ### Automatic last modified date
 
-Posts with the `modified` or `lastmod` frontmatter field would automatically update their values.
-
-```toml {linenos=inline linenostart=16 hl_lines=[3, "11-12"]}
-enableEmoji = true
-
-enableGitInfo = true
-
-# googleAnalytics = "G-XXXXXXXXX"
-
-[pagination]
-  pagerSize = 100
-
-
-[frontmatter]
-  lastmod = ['lastmod', ':fileModTime']
-```
+`showUpdatedDate` property set to `true` now automatically updates the post's last modified date.

@@ -1,13 +1,13 @@
 ---
-title: "Learning to Work Within One's Limits"
+title: "A Rigorous Process: Learning to Work Within Your Limits"
 date: "2025-03-13T12:31:52+01:00"
 authors:
   - "daniel"
-draft: true
+draft: false
 layout:  centered
 enableComments: true
 cover:
-  src: ""
+  src: "sakira-daodu-thumbnail.jpg"
   alt: "Sakira Daodu"
 ---
 
