@@ -1,6 +1,7 @@
 ---
 title: "What If"
 date: "2025-03-13T14:26:31+01:00"
+summary: "a little craziness won't hurt right?"
 showDateUpdated: true
 draft: false
 ---
