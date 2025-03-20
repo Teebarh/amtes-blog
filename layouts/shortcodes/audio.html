@@ -1,0 +1,499 @@
+<!-- Working with Controls -->
+
+<div class="player">
+    <div class="player-track-meta">
+        <p>{{ .Get "title" | default .Page.Title }}</p>
+        <p><span><em>{{ with (.Get "subtitle") }}{{ . }}{{ else }}{{ with (.Get "series") }}{{ . }}{{ else }}{{ $.Params.subtitle }}{{ end }}{{ end }}</em></span></p>
+    </div>
+    <div class="player-controls">
+        <button class="player-skip-back" role="button" aria-label="Skip backward 5 seconds">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <title>skip back 5s</title>
+                <path
+                    d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" />
+                <text x="9" y="14" font-size="6">5</text>
+            </svg>
+        </button>
+
+        <button class="player-play-btn" role="button" aria-label="Play" data-playing="false">
+            <div class="player-icon-play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>play</title>
+                    <polygon class="icon-play" points="19.05 12 6 3.36 6 20.64 19.05 12" />
+                    <rect class="icon-container" width="24" height="24" />
+                </svg>
+            </div>
+
+            <div class="player-icon-pause hide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>pause</title>
+                    <g>
+                        <rect class="icon-pause" x="6" y="3.26" width="4" height="17.48" />
+                        <rect class="icon-pause" x="14" y="3.26" width="4" height="17.48" />
+                    </g>
+                    <rect class="icon-container" width="24" height="24" />
+                </svg>
+            </div>
+        </button>
+
+        <button class="player-skip-forward" role="button" aria-label="Skip forward 5 seconds">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <title>skip forward 5s</title>
+                <path
+                    d="M12 5V1l5 5-5 5V7C8.69 7 6 9.69 6 13s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z" />
+                <text x="9" y="14" font-size="6">5</text>
+            </svg>
+        </button>
+
+        <div class="player-timeline">
+            <span class="player-time player-time-current">00:00</span>
+            <div class="player-progress">
+                <div class="player-progress-filled"></div>
+            </div>
+            <span class="player-time player-time-duration">00:00</span>
+        </div>
+        <div class="player-volume-container">
+            <input type="range" id="volume" min="0" max="1" value="1" step="0.01" class="player-volume" />
+        </div>
+    </div>
+
+    <audio src="{{ .Get "src" }}" type="{{ .Get "type" }}" crossorigin="anonymous"></audio>
+</div>
+
+<style>
+    .hide {
+        display: none;
+    }
+    .player {
+        max-width: 500px;
+        width: 100%;
+        margin: 1rem auto;
+        background: var(--player-bg);
+        padding: 36px 32px 24px 32px;
+        border-radius: 14px;
+        box-shadow: var(--player-shadow);
+        position: relative;
+        z-index: 1;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .player-track-meta {
+        text-align: center;
+    }
+
+    .player-track-meta p {
+        margin: 0;
+        font-size: 18px;
+        color: var(--player-text);
+        font-weight: 700;
+    }
+
+    .player-track-meta span {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 2px;
+        position: relative;
+        top: 1px;
+        color: var(--player-secondary);
+    }
+
+    .player-controls {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .player-play-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+    }
+
+    .icon-container {
+        fill: transparent;
+        stroke: none;
+    }
+
+    .player-play-btn:hover {
+        fill: #444444;
+    }
+
+    .player-play-btn svg {
+        color: var(--player-text);
+        position: relative;
+        left: 0.5px;
+        width: 36px;
+        height: 36px;
+        display: block;
+    }
+
+    .player-play-btn:hover svg {
+        color: var(--player-secondary);
+    }
+
+    .player-timeline {
+        display: flex;
+        flex: 1 1 250px;
+        /* Minimum width before wrap */
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+
+    .player-progress {
+        display: flex;
+        position: relative;
+        height: 6px;
+        background: var(--player-progress-bg);
+        border-radius: 25px;
+        margin: 0 5px;
+        flex: 10;
+        flex-basis: 100%;
+        overflow: hidden;
+    }
+
+    .player-progress-filled {
+        height: 6px;
+        background: var(--player-progress-fill);
+        flex: 0;
+        flex-basis: 0%;
+        border-radius: 25px;
+    }
+
+    .player-time {
+        padding: 2px 5px;
+        color: var(--player-text);
+    }
+
+    .player-volume-container {
+        width: 100px;
+        /* Fixed width instead of percentage */
+        min-width: 60px;
+        flex: 0 1 auto;
+    }
+
+    .player-volume {
+        height: 28px;
+        -webkit-appearance: none;
+        margin: 10px 0;
+        width: 100%;
+        background: transparent;
+    }
+
+    .player-volume:focus {
+        outline: none;
+    }
+
+    .player-volume::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 6px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: var(--player-progress-fill);
+        border-radius: 10px;
+    }
+
+    .player-volume::-webkit-slider-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 100px;
+        border: none;
+        background: var(--player-progress-fill);
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -4px;
+    }
+
+    .player-volume:focus::-webkit-slider-runnable-track {
+        background: var(--player-progress-fill);
+    }
+
+    .player-volume::-moz-range-track {
+        width: 100%;
+        height: 6px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: var(--player-progress-fill);
+        border-radius: 10px;
+    }
+
+    .player-volume::-moz-range-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 100px;
+        border: none;
+        background: var(--player-progress-fill);
+        cursor: pointer;
+        margin-top: -4px;
+    }
+
+    .player-volume::-ms-track {
+        width: 100%;
+        height: 6px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: var(--player-progress-fill);
+        border-radius: 10px;
+    }
+
+    .player-volume::-ms-fill-lower {
+        background: var(--player-progress-fill);
+        border-radius: 10px;
+    }
+
+    .player-volume::-ms-fill-upper {
+        background: var(--player-progress-fill);
+        border-radius: 10px;
+    }
+
+    .player-volume::-ms-thumb {
+        margin-top: 1px;
+        height: 15px;
+        width: 15px;
+        border-radius: 5px;
+        border: none;
+        background: var(--player-progress-fill);
+        cursor: pointer;
+    }
+
+    .player-volume:focus::-ms-fill-lower {
+        background: var(--player-progress-fill);
+    }
+
+    .player-volume:focus::-ms-fill-upper {
+        background: var(--player-progress-fill);
+    }
+
+    .player-skip-back,
+    .player-skip-forward {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+    }
+
+    .player-skip-back svg,
+    .player-skip-forward svg {
+        color: var(--player-text);
+        width: 24px;
+        height: 24px;
+    }
+
+    .player-skip-back:hover svg,
+    .player-skip-forward:hover svg {
+        color: var(--player-secondary);
+    }
+
+    /* Media Queries for different screen sizes */
+    @media screen and (max-width: 480px) {
+        .player {
+            padding: 24px 16px 16px 16px;
+        }
+
+        .player-track-meta p {
+            font-size: 16px;
+        }
+
+        .player-track-meta span {
+            font-size: 12px;
+        }
+
+        .player-time {
+            font-size: 12px;
+        }
+
+        .player-skip-back,
+        .player-skip-forward,
+        .player-play-btn {
+            width: 32px;
+            height: 32px;
+        }
+
+        .player-skip-back svg,
+        .player-skip-forward svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .player-play-btn svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .player {
+            padding: 20px 12px 12px 12px;
+        }
+
+        .player-controls {
+            justify-content: center;
+        }
+
+        .player-timeline {
+            order: -1;
+            margin-bottom: 10px;
+        }
+
+        .player-volume-container {
+            width: 80px;
+        }
+    }
+
+    /* Add CSS variables for colors */
+    :root {
+        --player-bg: white;
+        --player-text: #0e0e0e;
+        --player-secondary: #a3a3a3;
+        --player-progress-bg: #a3a3a3;
+        --player-progress-fill: #0e0e0e;
+        --player-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+
+    html.dark :root {
+        --player-bg: #1a1a1a;
+        --player-text: #ffffff;
+        --player-secondary: #737373;
+        --player-progress-bg: #404040;
+        --player-progress-fill: #ffffff;
+        --player-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.2);
+    }
+</style>
+
+<script>
+    // load sound via <audio tag
+    const audioElement = document.querySelector("audio");
+    const audioCtx = new AudioContext();
+    const track = audioCtx.createMediaElementSource(audioElement);
+
+    // Player controls and attributes
+    const playButton = document.querySelector(".player-play-btn");
+    const playIcon = playButton.querySelector(".player-icon-play");
+    const pauseIcon = playButton.querySelector(".player-icon-pause");
+    const progress = document.querySelector(".player-progress");
+    const progressFilled = document.querySelector(".player-progress-filled");
+    const playerCurrentTime = document.querySelector(".player-time-current");
+    const playerDuration = document.querySelector(".player-time-duration");
+    const volumeControl = document.querySelector(".player-volume");
+
+    window.addEventListener("load", () => {
+        // Set times after page load
+        setTimes();
+
+        // Update progress bar and time values as audio plays
+        audioElement.addEventListener("timeupdate", () => {
+            progressUpdate();
+            setTimes();
+        });
+
+        // Play button toggle
+        playButton.addEventListener("click", () => {
+            // check if context is in suspended state (autoplay policy)
+            // By default browsers won't allow you to autoplay audio.
+            // You can overide by finding the AudioContext state and resuming it after a user interaction like a "click" event.
+            if (audioCtx.state === "suspended") {
+                audioCtx.resume();
+            }
+
+            // Play or pause track depending on state
+            if (playButton.dataset.playing === "false") {
+                audioElement.play();
+
+                playButton.dataset.playing = "true";
+                playIcon.classList.add("hide");
+                pauseIcon.classList.remove("hide");
+            } else if (playButton.dataset.playing === "true") {
+                audioElement.pause();
+                playButton.dataset.playing = "false";
+                pauseIcon.classList.add("hide");
+                playIcon.classList.remove("hide");
+            }
+        });
+
+        // if the track ends reset the player
+        audioElement.addEventListener("ended", () => {
+            playButton.dataset.playing = "false";
+            pauseIcon.classList.add("hide");
+            playIcon.classList.remove("hide");
+            progressFilled.style.flexBasis = "0%";
+            audioElement.currentTime = 0;
+            audioElement.duration = audioElement.duration;
+        });
+
+        // Bridge the gap between gainNode and AudioContext so we can manipulate volume (gain)
+        volumeControl.value = 0.5;
+        const gainNode = audioCtx.createGain();
+        volumeControl.addEventListener("change", () => {
+            gainNode.gain.value = volumeControl.value;
+        });
+
+        track.connect(gainNode).connect(audioCtx.destination);
+
+        // Display currentTime and duration properties in real time
+        function setTimes() {
+            playerCurrentTime.textContent = new Date(audioElement.currentTime * 1000)
+                .toISOString()
+                .substr(11, 8);
+            playerDuration.textContent = new Date(audioElement.duration * 1000)
+                .toISOString()
+                .substr(11, 8);
+        }
+
+        // Update player timeline progress visually
+        function progressUpdate() {
+            const percent = (audioElement.currentTime / audioElement.duration) * 100;
+            progressFilled.style.flexBasis = `${percent}%`;
+        }
+
+        // Scrub player timeline to skip forward and back on click for easier UX
+        let mousedown = false;
+
+        function scrub(event) {
+            const scrubTime =
+                (event.offsetX / progress.offsetWidth) * audioElement.duration;
+            audioElement.currentTime = scrubTime;
+        }
+
+        progress.addEventListener("click", scrub);
+        progress.addEventListener("mousemove", (e) => mousedown && scrub(e));
+        progress.addEventListener("mousedown", () => (mousedown = true));
+        progress.addEventListener("mouseup", () => (mousedown = false));
+
+        // Add skip buttons functionality
+        const skipBack = document.querySelector(".player-skip-back");
+        const skipForward = document.querySelector(".player-skip-forward");
+        const skipTime = 5; // seconds
+
+        skipBack.addEventListener("click", () => {
+            audioElement.currentTime = Math.max(audioElement.currentTime - skipTime, 0);
+        });
+
+        skipForward.addEventListener("click", () => {
+            audioElement.currentTime = Math.min(audioElement.currentTime + skipTime, audioElement.duration);
+        });
+
+        // Also add keyboard shortcuts for skipping
+        document.addEventListener("keydown", (e) => {
+            if (e.target.tagName === "INPUT") return; // Don't trigger if user is typing in an input
+
+            if (e.key === "ArrowLeft") {
+                audioElement.currentTime = Math.max(audioElement.currentTime - skipTime, 0);
+            } else if (e.key === "ArrowRight") {
+                audioElement.currentTime = Math.min(audioElement.currentTime + skipTime, audioElement.duration);
+            }
+        });
+
+        // Track credit: Outfoxing the Fox by Kevin MacLeod under Creative Commons
+
+    }, false);
+</script>
