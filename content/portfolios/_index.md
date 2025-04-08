@@ -10,6 +10,4 @@ header: false
 Looking for collaborators on your next project? Let our achievements speak for themselves.😤
 {{< /lead >}}
 
-{{< alert color=blue >}}
-Send your portfolio to <amtesfunaab+blog@gmail.com> to have it listed here.
-{{< /alert >}}
+<a class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"  href="#tally-open=3EakRr&tally-hide-title=1&tally-overlay=1&tally-auto-close=0">Upload</a>
