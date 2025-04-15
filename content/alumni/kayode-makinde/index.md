@@ -8,10 +8,10 @@ enableComments: true
 layout: centered
 cover:
   src: "kayode-makinde-thumbnail.png"
-  alt: "Kayode makinde"
+  alt: "Kayode Makinde"
 ---
 
-_Kayode Makinde didn’t always have a clear plan when it came to his career in tech. Initially aiming for a different career, an event he attended changed his direction and led him to discover a passion for data science. What began as a shift in plans soon became the foundation for his future. Early in his journey, he focused on getting real-world experience rather than just chasing grades. For him, this helped him learn things that were far more valuable than what you might find in a textbook._
+_Kayode Makinde didn’t always have a clear plan when it came to his career in tech. Initially aiming for something different, an event he attended changed his direction and led him to discover a passion for data science. What began as a shift in plans soon became the foundation for his future. Early in his journey, he focused on getting real-world experience rather than just chasing grades. For him, this helped him learn things that were far more valuable than what you might find in a textbook._
 
 _One thing Kayode wishes he had known earlier was the importance of networking and building relationships. While it’s easy to get caught up in the hustle for money and recognition, he found that some of the best opportunities didn’t have an immediate financial payoff. He’s learnt to value social capital just as much as technical know-how, and his story is full of lessons for anyone trying to figure out how to stand out in the tech space._
 
