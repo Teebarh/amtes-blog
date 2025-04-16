@@ -19,9 +19,9 @@ _In this interview, as part of our AMTES Alumni Series, Kayode reflects on what 
 
 **Hi, Kayode! Welcome. Thank you for being here and agreeing to do this with me. It really means a lot. It’s a pleasure to have you. We have about 10 questions for this interview. For our first question, can you walk us through your journey from studying mechatronics to getting involved in data science? What made you interested in AI and data science?**
 
-I’ve always loved mathematics. It’s something that came naturally to me, even from a young age. That love really grew stronger when I got to secondary school. In senior secondary, especially, I took courses like physics, chemistry, math, and economics, subjects that were closely linked in some way. I started to realize that I wasn’t just good at learning the concepts—I was good at applying them. And I enjoyed that a lot more. I liked the idea of using what I’d learnt to solve real problems.
+I’ve always loved mathematics. It’s something that came naturally to me, even from a young age. That love really grew stronger when I got to secondary school. In senior secondary, especially, I took courses like physics, chemistry, math, and economics, subjects that were closely linked in some way. I started to realize that I wasn’t just good at learning the concepts, I was also good at applying them. And I enjoyed that a lot more. I liked the idea of using what I’d learnt to solve real problems.
 
-When it was time to decide on a university course, around 2017/2018, my exposure to computer science was honestly very limited. At the time, computer science to me was just word processing, Microsoft Office, Excel—that sort of thing. I didn’t find it exciting, so I ruled it out pretty quickly. Since I was strong in math and calculations, most people around me suggested engineering. And that made sense to me, too. It felt like the one field where I could use what I knew to actually build things.
+When it was time to decide on a university course, around 2017/2018, my exposure to computer science was honestly very limited. At the time, computer science to me was just word processing, Microsoft Office, Excel, that sort of thing. I didn’t find it exciting, so I ruled it out pretty quickly. Since I was strong in math and calculations, most people around me suggested engineering. And that made sense to me, too. It felt like the one field where I could use what I knew to actually build things.
 
 I got into FUNAAB and chose mechatronics, but it wasn’t exactly what I imagined. I thought it’d be a lot more hands-on. During my first year, I attended a Data Science Nigeria (DSN) event on an introduction to data science and machine learning. That was my first real exposure, and it completely fascinated me. I figured since we might eventually cover some of that in school, I’d get ahead and learn it early so it wouldn’t catch me off guard later.
 
@@ -105,11 +105,11 @@ In my subsequent semesters, I was able to catch up and finish with a not-so-bad 
 
 Yes, it really helps. One other thing I’d like to add, maybe other questions might lead to it, is also your relationship with God. It gives a sense of purpose and relaxation. You just know that everything is going to be fine. He’s holding your hand, and he’ll see you through whatever you’re going through. That faith is really important.
 
-**Exactly. One faith-defining moment for me was when I was trying to gain admission into the university. I had a very good JAMB result, and I felt JAMB was the hardest result out of all the exams we had to write. The teachers in my school were always going on about how we would pass our WAEC exam if we aced JAMB. Even our examination system in school was the WAEC standard, and I was doing pretty well in school. So when I passed JAMB, I already expected my WAEC result to be top notch. Only for the result to come out and my math and further math grades were terrible.** 
+**Exactly. One faith-defining moment for me was when I was trying to gain admission into the university. I had a very good JAMB result, and I felt JAMB was the hardest out of all the exams we had to write. The teachers in my school were always going on about how we would pass our WAEC exam if we aced JAMB. Even our examination system in school was the WAEC standard, and I was doing pretty well in school. So when I passed JAMB, I already expected my WAEC result to be top notch. Only for the result to come out and my math and further math grades were terrible.** 
 
-**The further grade was expected because I dropped in SS1 thinking I wasn’t going to need it, but I picked it back up in SS3. There was no way I was going to cover everything in time. But then the math was really shocking. I had already lost hope because I was going to study engineering. I had a D in math and an E in further math. What school would accept me with those grades for engineering?  I cried in school after seeing my result. When I met my dad at home, he asked why I cried and told me it was what God wanted for me. He added that I should just have faith, and everything would work out fine. I feel like that response he gave was the most perfect response he could’ve ever given.** 
+**The further math grade was expected because I dropped it in SS1 thinking I wasn’t going to need it, but I picked it back up in SS3. There was no way I was going to cover everything in time. But then the math was really shocking. I had already lost hope because I was going to study engineering. I had a D in math and an E in further math. What school would accept me with those grades for engineering?  I cried in school after seeing my result. When I met my dad at home, he asked why I cried and told me it was what God wanted for me. He added that I should just have faith, and everything would work out fine. I feel like that response he gave was the most perfect response he could’ve ever given.** 
 
-**Things went fine, as he said. I chose mechatronics, and I’m studying mechatronics, so what you said was very key.** 
+**Things went fine, as he said. I chose mechatronics, and I’m studying mechatronics, so what you said is very key.** 
 
 **But yeah, moving on to our next question. It’s our seventh one, so we have a little more to go. How did you balance your academics with everything you had going on without feeling overwhelmed?**
 
@@ -123,9 +123,9 @@ You already know the classes that carry weight. Those ones where attendance matt
 
 If you want to focus on both, you’ll probably have to let go of other things that eat up your time. It’s not easy, but in the words of a friend, “You either sacrifice for what you want or what you want becomes the sacrifice.” You might have to cut back on social life a bit. Time management will be your best friend.
 
-There’s one last thing I’ll share is a tip I got from someone who balanced both and did really well. He also studied engineering at FUNAAB. What worked for him in his later years, like his fourth or fifth year, was using the first two hours of his day strictly for academics, even before classes. Then, during class, breaks or after, he’d work on his tech stuff. It didn’t seem like much at the time, but those little pockets of consistency added up.
+There’s one last thing I’ll share. It's a tip I got from someone who balanced both and did really well. He also studied engineering at FUNAAB. What worked for him in his later years, like his fourth or fifth year, was using the first two hours of his day strictly for academics, even before classes. Then, during class, breaks or after, he’d work on his tech stuff. It didn’t seem like much at the time, but those little pockets of consistency added up.
 
-At the end of the day, your academics are the bedrock for everything that comes next—especially if you’re planning to go into AI research. Degrees really matter in that space. It’s different from other tech fields where you can get by with a portfolio. Most people only get one shot at undergrad, and that result can carry you far. I’m not an expert on the topic, but that’s my take.
+At the end of the day, your academics are the bedrock for everything that comes next, especially if you’re planning to go into AI research. Degrees really matter in that space. It’s different from other tech fields where you can get by with a portfolio. Most people only get one shot at undergrad, and that result can carry you far. I’m not an expert on the topic, but that’s my take.
 
 **You really did justice to that question. Thank you. This is question eight. Many people want to get into AI, machine learning, engineering, or research, but they don’t know where to start. What advice would you give them?**
 
@@ -135,16 +135,17 @@ But first, you’d need to learn a programming language, and I believe the best 
 
 Next, learn the basics of machine learning. I would recommend this YouTuber, [Krish Naik](https://www.youtube.com/@krishnaik06). He also has this [machine learning playlist](https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) and a lot of other helpful playlists. Kaggle is also a nice resource. They have a lot of free short courses you can take. I’d also recommend Datacamp, a platform you can learn from, and there are a lot of scholarships for this around.
 
-All these are just for the introduction. Please note that no matter how rich these videos and courses are, they will never sufficiently prepare you for the real world. You need to actually build projects. So as early as possible, as you’re learning, have it in mind that you have to apply what you’re learning. If you’re learning computer vision, you need to start looking for computer vision-related problems around you. You don’t need to have completed the course materials, which brings me to my next point.  You need to complete a course material to start applying what you learn. The purpose of knowledge is not just for itself but for its application and the solutions it can bring forth. 
+All these are just for the introduction. Please note that no matter how rich these videos and courses are, they will never sufficiently prepare you for the real world. You need to actually build projects. So as early as possible, as you’re learning, have it in mind that you have to apply what you’re learning. If you’re learning computer vision, you need to start looking for computer vision-related problems around you. You don’t need to have completed the course materials, which brings me to my next point.  You don't need to complete a course material to start applying what you learn. The purpose of knowledge is not just for itself but for its application and the solutions it can bring forth. 
 
 So yes, I would suggest learning Python, the basics of machine learning, and learning through building by participating in hackathons and maybe through machine learning research.
 
 The final thing I’d love to add is being part of a community. Try to find a community that supports your goals. These are some examples on campus:
-[GDG FUNAAB](http://gdsc.community.dev/federal-university-of-agriculture-abeokuta/),
-[DSN FUNAAB](https://forms.gle/8o6mAyQ5SRcAfBTW7).
+-[GDG FUNAAB](http://gdsc.community.dev/federal-university-of-agriculture-abeokuta/),
+- [DSN FUNAAB](https://forms.gle/8o6mAyQ5SRcAfBTW7).
+
 There are also other communities like
-ML Collective,
-[Data Community Africa](https://www.datacommunityafrica.org/).
+- ML Collective,
+- [Data Community Africa](https://www.datacommunityafrica.org/).
 There are a lot of communities doing amazing stuff, and they provide the platform for you to achieve your goals. They won’t necessarily always push you or carry you on top of their heads, but they’ll help you and give you the opportunities you need and help you define what you want. You can find mentors in these communities as well. But yeah, that’s my advice. I tried to keep it pretty generic as the field and resources change over time. 
 
 **You’ve said everything, and you’ve said it in the best way. The next question is, looking back, is there anything you wish you’d have known earlier that would have helped you throughout your journey in tech?**
