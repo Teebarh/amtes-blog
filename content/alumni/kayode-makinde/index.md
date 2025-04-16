@@ -97,11 +97,11 @@ That thought, paired with my earlier bad habit of gaming too much, discouraged m
 
 To recover from it, a really important support system I had was my family. I spoke to them before things got too bad. I even considered dropping out. What stopped me was the question my dad asked me. He didn’t ask me not to drop out; he didn’t complain; he just asked, ‘What next?’. I did not have a genuine answer to that question. I was already making a bit of progress in the AI and ML space at the time, but to make even more progress, I still needed a degree. That question changed my perspective. It made me realise I was pursuing a degree for the greater good, for my future, and to open doors to what I love doing. 
 
-In my subsequent results, I was able to catch up and finish with a not-so-bad result. I believe a second-class upper in engineering is not a bad result anywhere. That’s it about my academic struggles.
+In my subsequent semesters, I was able to catch up and finish with a not-so-bad result. I believe a second-class upper in engineering is not a bad result anywhere. That’s it about my academic struggles.
 
 **I feel like with every response, I’ve just been genuinely honoured to have this interview with you. Each answer has been so unique, thoughtful, and beautiful. I keep finding myself inspired all over again, and I just want to say thank you once more for choosing to do this with me. I’m not saying that out of formality; I truly mean it.**
 
-What you said about having a good support system really struck a chord with me. I’ve experienced that personally. There have been times when I felt completely weighed down by everything going on, and just having people I could reach out to, people who would listen and help put things back into perspective, made all the difference. It has honestly helped me a lot.
+**What you said about having a good support system really struck a chord with me. I’ve experienced that personally. There have been times when I felt completely weighed down by everything going on, and just having people I could reach out to, people who would listen and help put things back into perspective, made all the difference. It has honestly helped me a lot.**
 
 Yes, it really helps. One other thing I’d like to add, maybe other questions might lead to it, is also your relationship with God. It gives a sense of purpose and relaxation. You just know that everything is going to be fine. He’s holding your hand, and he’ll see you through whatever you’re going through. That faith is really important.
 
