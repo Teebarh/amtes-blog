@@ -105,11 +105,7 @@ In my subsequent semesters, I was able to catch up and finish with a not-so-bad 
 
 Yes, it really helps. One other thing I’d like to add, maybe other questions might lead to it, is also your relationship with God. It gives a sense of purpose and relaxation. You just know that everything is going to be fine. He’s holding your hand, and he’ll see you through whatever you’re going through. That faith is really important.
 
-**Exactly. One faith-defining moment for me was when I was trying to gain admission into the university. I had a very good JAMB result, and I felt JAMB was the hardest out of all the exams we had to write. The teachers in my school were always going on about how we would pass our WAEC exam if we aced JAMB. Even our examination system in school was the WAEC standard, and I was doing pretty well in school. So when I passed JAMB, I already expected my WAEC result to be top notch. Only for the result to come out and my math and further math grades were terrible.** 
-
-**The further math grade was expected because I dropped it in SS1 thinking I wasn’t going to need it, but I picked it back up in SS3. There was no way I was going to cover everything in time. But then the math was really shocking. I had already lost hope because I was going to study engineering. I had a D in math and an E in further math. What school would accept me with those grades for engineering?  I cried in school after seeing my result. When I met my dad at home, he asked why I cried and told me it was what God wanted for me. He added that I should just have faith, and everything would work out fine. I feel like that response he gave was the most perfect response he could’ve ever given.** 
-
-**Things went fine, as he said. I chose mechatronics, and I’m studying mechatronics, so what you said is very key.** 
+**Exactly. One faith-defining moment for me was when I was trying to gain admission into the university. I had an experience that made me see this sense of purpose and relaxation you mentioned. Highly recommend.** 
 
 **But yeah, moving on to our next question. It’s our seventh one, so we have a little more to go. How did you balance your academics with everything you had going on without feeling overwhelmed?**
 
