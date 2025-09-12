@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Blog"
+title: ""
 ---
 
 <div class="container">

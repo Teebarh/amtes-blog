@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Why Mechatronics?"
-summary: "🗓️ Starting March 14"
+date: 2024-03-06
+summary: "🗓️ Starting soon..."
 showHero: false
 cardView: true
 cascade:

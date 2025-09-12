@@ -10,6 +10,7 @@ This document was generated in part by Claude AI (and it's pretty damn good).
 
 - `feat`: Implement a new blog feature
 - `post`: Create a new blog post
+- `delete`: Delete an existing blog post
 - `edit`: Modify existing post content: Correct typos, grammar, or formatting issues
 - `meta`: Update blog metadata or site configuration
 - `draft`: Add or modify draft content
