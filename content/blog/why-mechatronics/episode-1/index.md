@@ -4,9 +4,16 @@ date: 2025-09-25
 authors:
   - "sekeenah"
 draft: false
-summary: "🐤 coming soon..."
+summary: "We will be getting a glimpse into the personal journey of various student in the department that led them to choose Mechatronics Engineering and their perspectives as they navigate their academic path.
+Get ready to be inspired by their stories and gain a deeper understanding of what draws students to the fascinating world of mechatronics. Let’s dive in."
 tags: ["StudentStories"]
 header: false
+draft: false
+enableComments: true
+layout: centered
+cover:
+  src: "Episode 1.png"
+  alt: "Episode 1"
 ---
 
 # Welcome to the first instalment of our new series, *'Why Mechatronics?'*!
@@ -33,7 +40,7 @@ In the interview with Toyibat, we learnt how she got her interest in robotics du
 
 **Toyibat:** If you're considering studying Engineering or specifically, Mechatronics. Do it!
 
-## 2, Daniel ‘28
+## 2. Daniel ‘28
 We learnt that Daniel is an engineer at the core. He has been inclined to solving problems from time, and he is probably one of the few people to have an elder sibling to look up to in this field.
 
 **Sekeenah:** How did you learn about Mechatronics Engineering?
