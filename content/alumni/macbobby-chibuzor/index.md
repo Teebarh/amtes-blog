@@ -11,13 +11,13 @@ cover:
   alt: "Macbobby Chibuzor"
 ---
 
-_Macbobby Chibuzor’s journey into tech didn’t start the usual way. After facing financial challenges and multiple lost admissions, he found his way into Mechatronics Engineering almost by chance. What started as an interest in building things, inspired by watching Iron Man, grew into a real passion for learning and creating._
+_Macbobby (Ghostmac) Chibuzor’s journey into tech didn’t start the usual way. After facing financial challenges and multiple lost admissions, he found his way into Mechatronics Engineering almost by chance. What started as an interest in building things, inspired by watching Iron Man, grew into a real passion for learning and creating._
 
 _While at FUNAAB, he quickly realized that school alone wouldn’t prepare him for the real world. He took his education into his own hands, studying robotics, software engineering, and embedded systems on his own, and even earned paid projects from companies abroad. Along the way, he learned that resilience, curiosity, and surrounding yourself with supportive communities can be just as important as grades or talent._
 
 _In this first part of our AMTES Alumni Series interview, Macbobby reflects on how he discovered his path, what drove him to push past setbacks, and why self-directed learning and building systems for growth shaped his journey in tech._
 
-**Hi, Ghost! Good afternoon. Thank you so much for agreeing to do this and sharing your story with the readers. I really appreciate you giving us your time. I think we can get straight into things. The first question I have is, why did you choose to study mechatronics, and what got you interested in the field?**
+**Hi, Ghost! Good afternoon. Thank you so much for agreeing to do this and sharing your story with the readers. I really appreciate you giving us your time. I think we can get straight to things. The first question I have is, why did you choose to study mechatronics, and what got you interested in the field?**
 
 My answer is going to be funny. It was something unexpected, and I think I'll have to give you a back story about my search for admission.
 
@@ -27,13 +27,13 @@ I remember losing this chemistry textbook I had bought, and it was so painful. A
 
 I applied to study petroleum engineering at a Polytechnic, the Petroleum Training Institute in Warri. I wrote the entrance exam, which was like JAMB, and I passed. I think I got 70 out of 100, and I used awaiting results to get the admission. This time I used NECO, and I focused on chemistry, but it was cancelled for my center because somebody was caught spying. I resumed school, but when the results came out, I discovered I had failed chemistry, so I had to drop out. Chemistry is quite important for petroleum engineering.
 
-The second time, I think this was in 2015 or 16, I tried applying again to the same school. I got the admission, and I scored 74 in the entrance exam. What caused me to lose this admission was the strike that year. When it was called off, I was already processing JAMB to another unit.
+The second time, I think this was in 2015 or 16, I tried applying again to the same school. I got admission, and I scored 74 in the entrance exam. What caused me to lose this admission was the strike that year. When it was called off, I was already processing JAMB to another unit.
 
-I lost many admissions, about 5 or 6. The courses I was choosing for these admissions were electrical engineering and petroleum engineering. I didn't have a particular choice. I just wanted to go to school, finish up, and get a better job. If you are living in the South, especially close to the Niger Delta, then you most likely want to be a petroleum engineer. Back then, as a graduate, you get 700K as your base salary. 
+I lost many admissions, about 5 or 6. The courses I was choosing for these admissions were electrical engineering and petroleum engineering. I didn't have a particular choice. I just wanted to go to school, finish up, and get a better job. If you are living in the South, especially close to the Niger Delta, then you most likely want to be a petroleum engineer. Back then, as a graduate, you got 700K as your base salary. 
 
 **Wow, that’s crazy.**
 
-Yeah, it's crazy. My first contact with Mechatronics was actually when I applied to FUTMINNA for electrical engineering. I got the admission. My UTME score was 200, and the cutoff mark for electrical engineering was 180. I think I was even in the first batch, if I remember clearly. 
+Yeah, it's crazy. My first contact with Mechatronics was actually when I applied to FUTMINNA for electrical engineering. I got the admission. My UTME score was 200, and the cutoff mark for electrical engineering was 180. I think I was even in the first batch, if I remember correctly. 
 
 My dad was at work one day, and he spoke with his friend and discovered that he also got into the same school for a course called Mechatronics Engineering. My dad did a little bit of research and was interested in it. He called me and told me to also research the course before he got home, so we'd talk. He got home, we spoke about it, and I actually did like the course.
 
@@ -81,9 +81,9 @@ But the problem is that in Nigeria, hardware is difficult and expensive to come 
 
 **It really is.**
 
-Seeing as that was a challenge, I discussed with my friends and I concluded that since the software aspect is also necessary, I would just focus on that. software aspect. That was how I got into software engineering. I did learnt C, C++, Arduino and the likes. I even helped some final-year people back then with their projects. Yeah, made cool cash from all of that. That was how software engineering just took me. 
+Seeing as that was a challenge, I discussed with my friends and I concluded that since the software aspect is also necessary, I would just focus on that. software aspect. That was how I got into software engineering. I learnt C, C++, Arduino and the like. I even helped some final-year people back then with their projects. Yeah, made cool cash from all of that. That was how software engineering just took me. 
 
-On my most memorable moment as a student of FUNAAB, nothing really jumps to the top of my head right now that was really amazing. It is really outstanding. I had a lot of down moments in school. I did have up moments too, but I see finally graduating as my most memorable moment, having that freedom.
+On my most memorable moment as a student of FUNAAB, nothing really jumps to the top of my head right now that was really amazing. I had a lot of down moments in school. I did have up moments too, but I see finally graduating as my most memorable moment, having that freedom.
 
 I still remember how it went. We wrote a difficult paper. We came out happy. We signed on each other. We climbed that rock in the middle of the school. That was memorable.
 
@@ -91,7 +91,7 @@ I still remember how it went. We wrote a difficult paper. We came out happy. We 
 
 **I think that also brings me to my next question, which is, a lot of people wait to feel ready before trying something new. What gave you the courage to start learning software seriously and then later go into such a specialized space like DeFi?**
 
-There were a lot of reasons why I did that. I got the courage from the fact that I had eyes watching me. From my 200-level towards 300-level, I already started assuming responsibilities both in the software engineering space, like in the Google Developer Student Club. I was the co-lead with Steven. There were colleagues in my set as well who were counting on me, looking up to me, and rooting for me. I felt a sort of personal pressure to amount to something.
+There were a lot of reasons why I did that. I got the courage from the fact that I had eyes watching me. From my 200-level towards 300-level, I already started assuming responsibilities both in the software engineering space, like in the [Google Developer Student Club](https://gdg.community.dev/gdg-on-campus-federal-university-of-agriculture-abeokuta-nigeria/). I was the co-lead with Steven. There were colleagues in my set as well who were counting on me, looking up to me, and rooting for me. I felt a sort of personal pressure to amount to something.
 
 I went on to make friends with people who were better than me, and then I made plans. There are two kinds of people: people who plan their day, their week, their month and year. And then there are those who live spontaneously and who believe in spontaneity. I belong to the former category. I plan myself. I put down my expectations from my year, from my month and all of that and then  push myself to achieve these things. 
 
@@ -115,7 +115,7 @@ Freedom is very, very somehow, so I wanted to work on this. What I had in mind w
 
 That was how I paired them. You might get used to it, and it will become a habit. You drop down a book, you pick up the towel, and you go to the gym. Once you set up that kind of system, it just keeps happening. 
 
-My friends are people who want the same thing as me. So if I stopped wanting to grow, or wanting to learn something new, I have set up that system where the people I have around me, they will come to the DM, they will come to their status, they will come to where I would see and they will talk about something they just learned. And then I'm like, I need to learn something. 
+My friends are people who want the same thing as I do. So if I stopped wanting to grow or wanting to learn something new, I have set up a system where the people I have around me will come to my DM, they will go on their status, they will go to where I would see, and they will talk about something they just learned. And then I'm like, I need to learn something. 
 
 So systems are things that you put in place for them to take over and direct your life. I don't know how to explain it, but yeah, millions of people utilize something like that. That helped me a lot while in school, especially towards exams and planning when to start reading. I had a plan in place where, towards exams, I’d have three or four people come around because if they didn’t come around, I would not read. They would come around and prepare a curriculum for me to study.
 
@@ -131,13 +131,13 @@ Yeah, sure, definitely.
 
 Yeah, great. Book Panda, my beloved. It is probably the most important thing that happened to me in FUNAAB. Back in FUTMinna when I just resumed, I created a community. It was called intelligentsia, and it was for people who claimed to be smart, although I wasn’t.
 
-I had a lot of people on the team. We took courses, basically what RightMinds does in FUNAAB. We organized tutorials to help people pass their exams and everything. I started it, and I was handling everything. We had really gotten deep into the session when all of those things happened with my dad and the admission. So I had to withdraw and started managing it online. I converted it into a library instead where students can ask for textbooks because I was no longer in the school, and there was no point staying around in Niger State. 
+I had a lot of people on the team. We took courses, basically what RightMinds does in FUNAAB. We organized tutorials to help people pass their exams and everything. I started it, and I was handling everything. We had really gotten deep into the session when all of those things happened with my dad and the admission. So I had to withdraw and started managing it online. I converted it into a library instead, where students can ask for textbooks because I was no longer in the school, and there was no point staying around in Niger State. 
 
-I converted it into that library, and I’ve been managing it since 2018, but I stopped this year. I wanted to create something like that in FUNAAB. So in April 2021, just after 5-6 months of resumption, I already started thinking about hatching a plan for that kind of intelligentsia. What spurred me to even do it faster was because around school area if you were a baller, you’d probably go to night parties. If you were a church person, you’d only go to all nights in church. There was no activity in school area that was meant for students.
+I converted it into that library, and I’ve been managing it since 2018, but I stopped this year. I wanted to create something like that in FUNAAB. So in April 2021, just after 5-6 months of resumption, I already started thinking about hatching a plan for that kind of intelligentsia. What spurred me to even do it faster was that around the school area, if you were a baller, you’d probably go to night parties. If you were a church person, you’d only go to all nights in church. There was no activity in the school area that was meant for students.
 
 The only options available to hang out were to go to a club or a lounge like Chillbay at Zoo or Old Trafford. If you didn’t explore these options, then you don't go anywhere throughout the week; you just go to classes. I didn't know about communities like JCI. Even if I did, they weren’t focused on the kind of things I liked, so I had to create something. 
 
-We have this saying we have in the book lovers community. It’s something along the lines of, if you don't see a book on the shelf, that is a sign that you have to write that book. So if there’s  something that is needed and is not in existence, it is your responsibility to initialize the concept or create that thing. So I created the book club. The idea was to just read a book for one hour, then we use about 2-3 hours for games or for discussions.
+We have this saying in the book lovers community. It’s something along the lines of, if you don't see a book on the shelf, that is a sign that you have to write that book. So if there’s  something that is needed and is not in existence, it is your responsibility to initialize the concept or create that thing. So I created the book club. The idea was to just read a book for one hour, then use about 2-3 hours for games or for discussions.
 
 We even went on to do therapy, like post-exam therapy, pre-exam therapy, and we discussed a lot of things. It was like a safe haven for us, and that was  the community I was looking forward to. Then we started spicing things up with movies, participating in Halloween activities and all of that stuff. It was a nerd's haven, let me put it that way.
 
@@ -153,9 +153,9 @@ Yeah, it’s my pleasure.
 
 **I have a follow-up question to that. Can you share a book or two that you've read so far and that you really enjoyed? It could be fiction, non-fiction, but it's really had an impact on you.**
 
-Yeah, I have four of them and only one of them is a fictional work, but I would say it is even more important than the other three. The very first one is The Alchemist by Paulo Coelho. Not a lot of people like that book, but it's my favorite book in the world. If such a thing should exist. I even make it compulsory for anybody joining Book Panda to read that book and take a test on it before joining.
+Yeah, I have four of them and only one of them is a fictional work, but I would say it is even more important than the other three. The very first one is The Alchemist by Paulo Coelho. Not a lot of people like that book, but it's my favourite book in the world. If such a thing should exist. I even make it compulsory for anybody joining Book Panda to read that book and take a test on it before joining.
 
-That is how important that is to me. It's about finding your personal legend. I have a friend also in my department, a very close friend. When we started school, he didn't know what he wanted to do. He was just going to school for the sake of going. He was very bright, very brilliant. So anything his parents told him to do or study was what he did. Reading the book helped him to find a little bit of happiness in life. He saw more reason to live, started taking more interest into mechatronics and then he went on to specialize way before I did. That was how important The Alchemist was to me. I read it once a year.
+That is how important that is to me. It's about finding your personal legend. I have a friend also in my department, a very close friend. When we started school, he didn't know what he wanted to do. He was just going to school for the sake of going. He was very bright, very brilliant. So anything his parents told him to do or study was what he did. Reading the book helped him to find a little bit of happiness in life. He saw more reason to live, started taking more interest in mechatronics, and then he went on to specialize way before I did. That was how important The Alchemist was to me. I read it once a year.
 
 The next book I have, which I also read every year, is The Almanack of Naval Ravikant. Naval is someone that everybody should know. He's an angel investor, an economist. I think if you remove his sayings from Twitter, then there might be a small fraction, maybe 10-20% of people who will find Twitter, Spotify, YouTube, and the like, useless. So I think the Almanack of Naval Ravikant is also worth reading. Those are my two favourite books that I read every year from January. 
 
@@ -165,7 +165,7 @@ Let’s say you like basketball, and you have good genes and you’re tall, that
 
 You become good, and you actually put in the hard work, but success is already speaking, even before you put in that hard work. At the end of the day, your parents might send you out to Abuja to play on the international basketball team. And then from there, like my friend Emmanuel back in IJMB, that was how it happened for him. Then he moved to USC, and now he's playing in the league. He got a scholarship to study there also. So success is the result of accumulated advantage. 
 
-There are times I know that things might not go my way. So before I start, for example, in terms of job applications, I start first by contributing to that company, building a reputation there, getting to know people there, and basically accumulating some kind of advantage. That way, I already have an edge. When I apply, I have higher chances of getting it than somebody who just saw the application on LinkedIn and submitted their CV. So I’ve been applying that principle, and I've never forgotten that quote. I learned how to remember important quotes from The Alchemist, and it has been helping me in both other books and in life. 
+There are times I know that things might not go my way. So before I start, for example, in terms of job applications, I start by contributing to that company, building a reputation there, getting to know people there, and basically accumulating some kind of advantage. That way, I already have an edge. When I apply, I have higher chances of getting it than somebody who just saw the application on LinkedIn and submitted their CV. So I’ve been applying that principle, and I've never forgotten that quote. I learned how to remember important quotes from The Alchemist, and it has been helping me in both other books and in life. 
 
 The final book is The Way of the Intelligent Rebel. This one I won't talk about. Its secrets are basically about how school connects to success in the real world. I would just end it here.
 
@@ -183,15 +183,15 @@ Another thing that helped me was discipline. It was as little as studying for at
 
 I still haven't done much in that community, but I should be bringing it out soon for interested people. It's going to be very difficult to get in. I promise everybody that.
 
-Speaking of the decisions I made. Most of my decisions were backed by data, in the sense that I am always watching the spaces that exist on Twitter. I'm always looking at what is trending on Twitter. I filtered my Twitter such that I don't get Nigerian content. If I want to interact with any Nigerian posts, I use a dummy account, but my main account is optimized for my industry and people who have something to offer me. So I surrounded myself with people like that. At the expense of actually growing my career, I decided that I am a young engineer that wants to be interacting with content from people at the level I want to get to.
+Speaking of the decisions I made. Most of my decisions were backed by data, in the sense that I am always watching the spaces that exist on Twitter. I'm always looking at what is trending on Twitter. I filtered my Twitter such that I don't get Nigerian content. If I want to interact with any Nigerian posts, I use a dummy account, but my main account is optimized for my industry and people who have something to offer me. So I surrounded myself with people like that. At the expense of actually growing my career, I decided that I am a young engineer who wants to be interacting with content from people at the level I want to get to.
 
 Another decision I made early on in school was to focus on my career. While that might seem counterintuitive, I think that helped me. Not to brag, but I can say that I am one of the successful graduates from my set. I'll just put it that way.
 
-Right from the onset, I had three goals in mind. One of them was to graduate with a very good result and then apply for a scholarship. I think that’s one of the best things a person can do. I had a friend with the same goal, and I remember when we dared each other to go for a PhD after BSc. We did our research, and we found a way we could get it done. Just write papers. That friend was studying a four year course, and so he finished before me. Now he has gone on to pursue his PhD.
+Right from the onset, I had three goals in mind. One of them was to graduate with a very good result and then apply for a scholarship. I think that’s one of the best things a person can do. I had a friend with the same goal, and I remember when we dared each other to go for a PhD after a BSc. We did our research, and we found a way we could get it done. Just write papers. That friend was studying a four-year course, and so he finished before me. Now he has gone on to pursue his PhD.
 
 He was in the data science space, and most papers in the field are code and theory-heavy. But for somebody in robotics or mechatronics looking to further in that space, you have to work with hardware and not just cheap hardware like Arduino, you know, because you're trying to get a PhD. I  didn't think of that when we made the bet. I didn't consider that my own path would be rigged and more expensive, but I just blindly agreed to do the competition with him, and I'm so happy he won. He won. And then here I am. I would say I just chose to settle down early in my career.
 
-I lost the bet, and I also lost the ability to apply for scholarships because my result is not something that any school would be willing to give a scholarship for. My Plan B was actually funding my own education, which is what I’ll be resorting to. I’ll be starting after resting for a year plus. I am also quite far into my career, so I decided to get a relocation job to a promising country where the education system is really tangible. And then from there I can pay my tuition for a master's because there's no point in my rushing to a PhD anymore because of my BSc. That’s the plan I have lined up. Basically, I’ve wrapped up university. It is it's done for now, but I still have plans of going to study robotics, abstract mathematics, and like 2 master's at least, before going for a PhD.
+I lost the bet, and I also lost the ability to apply for scholarships because my result is not something that any school would be willing to give a scholarship for. My Plan B was actually funding my own education, which is what I’ll be resorting to. I’ll be starting after resting for a year plus. I am also quite far into my career, so I decided to get a relocation job to a promising country where the education system is really tangible. And then from there I can pay my tuition for a master's because there's no point in my rushing to a PhD anymore because of my BSc. That’s the plan I have lined up. Basically, I’ve wrapped up university. It is done for now, but I still have plans of going to study robotics, abstract mathematics, and like 2 master's at least before going for a PhD.
 
 **That's really amazing, and thank you so much for being very open with that and for sharing your plans as well. I'm also well considering you graduate school in robotics, and what you said about your path being rigged and getting access to the tools that you need, and everything is not as easy, I definitely resonate with that. I think it's one of the things I'm also trying to find a walk around with. So yeah, that's definitely something that I understand as well.**
 
@@ -203,4 +203,4 @@ _This is the first part of our interview with Macbobby. The next part, where he 
 
 _From all of us at AMTES, we celebrate you!_
 
-You can connect with him on LinkedIn.
+You can connect with him on [LinkedIn](https://www.linkedin.com/in/chibuzor-macbobby/).
