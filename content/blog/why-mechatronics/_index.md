@@ -1,7 +1,7 @@
 ---
 title: "🎙️ Why Mechatronics?"
 date: 2024-03-06
-summary: "🗓️ Starting soon..."
+summary: "🎥 We're LIVE!"
 showHero: false
 cardView: true
 cascade:
@@ -10,3 +10,4 @@ cascade:
 
 Share your journey with us [via email](mailto:amtesfunaab+blog@gmail.com) 📬 or [schedule a meeting](https://calendly.com/amtesfunaab).
 
+---
